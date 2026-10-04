@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <com.example.myempty.activity2.TerminalView
+            android:id="@+id/terminal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/hidden_input"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:alpha="0"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:id="@+id/bar_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink_light"
+        android:visibility="gone">
+
+        <Button android:id="@+id/btn_copy_sel" android:text="复制选中" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_cancel_sel" android:text="取消" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink_light">
+
+        <Button android:id="@+id/btn_ctrl" android:text="Ctrl" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_c" android:text="C" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_tab" android:text="Tab" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_esc" android:text="Esc" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_slash" android:text="/" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_up" android:text="↑" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_down" android:text="↓" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_ime" android:text="中文" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

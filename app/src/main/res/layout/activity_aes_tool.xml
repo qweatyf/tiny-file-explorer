@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="AES 加解密"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="输入内容" android:textColor="@color/text" android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/et_aes_input"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top|start"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="密码" android:textColor="@color/text" android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/et_aes_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btn_aes_encrypt" android:text="加密"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+
+            <Button android:id="@+id/btn_aes_decrypt" android:text="解密"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
+
+            <Button android:id="@+id/btn_aes_clear" android:text="清空"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_marginStart="4dp"/>
+
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="结果" android:textColor="@color/text"
+            android:paddingTop="16dp" android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_aes_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="13sp"
+            android:textIsSelectable="true"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="密文是 Base64，解密时直接粘进来"
+            android:textSize="12sp"
+            android:textColor="#888"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

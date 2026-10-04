@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/view_sv_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <FrameLayout
+            android:id="@+id/view_hue_container"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="12dp">
+
+        <View
+            android:id="@+id/view_preview"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/tv_color_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/text"
+            android:text="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            style="@style/WhiteBtn"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定"
+            style="@style/WhiteBtn"
+            android:layout_marginStart="6dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

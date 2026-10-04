@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyEmptyActivity</string>
+    <string name="transfer_key">CHANGE_ME_BEFORE_RELEASE_2024</string>
+</resources>

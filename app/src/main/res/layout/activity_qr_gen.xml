@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="生成二维码"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/et_qr_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输文字或者网址，比如 https://baidu.com"
+            android:minLines="3"
+            android:gravity="top|start"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_qr_gen_do"
+            android:text="生成二维码"
+            style="@style/WhiteBtn"/>
+
+        <ImageView
+            android:id="@+id/iv_qr"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btn_qr_save"
+                android:text="存到相册"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"/>
+
+            <Button
+                android:id="@+id/btn_qr_copy"
+                android:text="拷贝文字"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

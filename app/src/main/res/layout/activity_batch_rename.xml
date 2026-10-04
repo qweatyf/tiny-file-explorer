@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="12dp">
+
+    <TextView style="@style/PinkTitle" android:text="批量重命名"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_rename_up"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="⬆"
+            android:textSize="18sp"
+            android:textColor="@color/main_pink"
+            android:background="@drawable/circle_bg"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"/>
+
+        <TextView
+            android:id="@+id/tv_rename_path"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="/storage/emulated/0/Download"
+            android:textSize="13sp"
+            android:textColor="@color/text"
+            android:singleLine="true"
+            android:ellipsize="middle"/>
+
+        <Button
+            android:id="@+id/btn_rename_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="切目录"
+            style="@style/WhiteBtn"
+            android:textSize="12sp"
+            android:minWidth="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/et_rename_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="要替换的"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="→"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textColor="@color/text"/>
+
+        <EditText
+            android:id="@+id/et_rename_replace"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="替换成"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_rename_preview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="预览"
+            style="@style/WhiteBtn"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btn_rename_do"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="执行"
+            style="@style/WhiteBtn"
+            android:layout_marginStart="6dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_rename_files"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="6dp"/>
+
+</LinearLayout>

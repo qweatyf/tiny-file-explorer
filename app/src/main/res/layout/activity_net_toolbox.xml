@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="网络工具箱"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_net_http" android:text="HTTP 请求" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_net_lan" android:text="局域网扫描" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_net_port" android:text="端口扫描" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_net_speed" android:text="网速测试" style="@style/WhiteBtn"/>
+
+</LinearLayout>

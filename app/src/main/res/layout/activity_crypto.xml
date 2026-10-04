@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/PinkTitle"
+        android:text=""/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/et_input"
+        style="@style/WhiteEdit"/>
+
+    <Button android:id="@+id/btn_encode" android:text="加密/转换"
+        style="@style/WhiteBtn" android:layout_marginTop="10dp"/>
+
+    <Button android:id="@+id/btn_decode" android:text="解密/还原"
+        style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_output"
+        style="@style/WhiteBox"/>
+
+</LinearLayout>

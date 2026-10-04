@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView style="@style/PinkTitle" android:text="硬核画画"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_size_16" android:text="16" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_32" android:text="32" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_50" android:text="50" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_100" android:text="100" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <Button android:id="@+id/btn_size_120" android:text="120" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_350" android:text="350" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_450" android:text="450" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_size_500" android:text="500" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_grid"
+            android:text="网格：关"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"/>
+
+        <Button
+            android:id="@+id/btn_drag_hint"
+            android:text="颜色表"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_color_table"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_color_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_bin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入二进制，只允许 0 和 1"
+                android:inputType="number"
+                android:minLines="3"
+                android:gravity="top|start"
+                android:background="@color/white"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_err"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                android:padding="4dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <Button
+                android:id="@+id/btn_generate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="生成并保存"
+                style="@style/WhiteBtn"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

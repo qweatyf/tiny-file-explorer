@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="文件加密/解密"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <Button android:id="@+id/btn_enc_pick" android:text="选文件" style="@style/WhiteBtn"/>
+
+        <TextView
+            android:id="@+id/tv_enc_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="未选文件"
+            android:textColor="@color/text"
+            android:padding="10dp"
+            android:ellipsize="middle"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/et_enc_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输密码"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button android:id="@+id/btn_enc_do" android:text="加密" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_dec_do" android:text="解密" style="@style/WhiteBtn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="加密文件存到 Download/加密文件/\n解密文件存到 Download/解密文件/"
+            android:textSize="12sp"
+            android:textColor="#888"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

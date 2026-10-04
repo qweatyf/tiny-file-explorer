@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="12dp">
+
+    <TextView style="@style/PinkTitle" android:text="记账本"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_ab_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg"
+        android:padding="12dp"
+        android:textColor="@color/main_pink"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_ab_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="金额"
+        android:inputType="numberDecimal"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_ab_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="备注（可选）"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_ab_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_ab_pick_date"
+            android:text="选日期"
+            style="@style/WhiteBtn"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button android:id="@+id/btn_ab_add" android:text="支出 -"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_marginEnd="4dp"/>
+
+        <Button android:id="@+id/btn_ab_income" android:text="收入 +"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_ab_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="长按删除"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

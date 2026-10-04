@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="12dp">
+
+    <TextView style="@style/PinkTitle" android:text="倒数日"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/et_cd_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="事件名，如：生日"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_cd_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="未选日期"
+            android:textColor="@color/text"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_cd_pick_date"
+            android:text="选日期"
+            style="@style/WhiteBtn"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="0dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cd_add"
+        android:text="添加"
+        style="@style/WhiteBtn"/>
+
+    <ListView
+        android:id="@+id/lv_cd_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="长按删除"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

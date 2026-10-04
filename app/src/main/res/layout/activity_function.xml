@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="功能"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView style="@style/GroupTitle" android:text="文件"/>
+        <Button android:id="@+id/btn_file" android:text="文件管理" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_file_toolbox" android:text="文件工具箱" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_apks" android:text="APKS 合成" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="网络"/>
+        <Button android:id="@+id/btn_server" android:text="本地服务器" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_transfer" android:text="快传" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_links" android:text="链接导航页" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_net_toolbox" android:text="网络工具箱" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="画画"/>
+        <Button android:id="@+id/btn_real_draw" android:text="真正画画" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_hardcore_draw" android:text="硬核画画" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="终端"/>
+        <Button android:id="@+id/btn_morse_audio" android:text="摩斯电码音频生成" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_morse_terminal" android:text="摩斯电码终端" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_real_terminal" android:text="真终端" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="工具"/>
+        <Button android:id="@+id/btn_qr" android:text="二维码" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_chat" android:text="本地聊天" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_apk_extract" android:text="APK 提取" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_image_toolbox" android:text="图片工具箱" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_doc_toolbox" android:text="文档工具箱" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_media_toolbox" android:text="音视频工具箱" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_crypto_toolbox" android:text="加密工具箱" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="实用工具"/>
+        <Button android:id="@+id/btn_unit_convert" android:text="单位换算" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_color_pick" android:text="颜色选择器" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_qr_batch" android:text="二维码批量生成" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_clock" android:text="钟表" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_countdown" android:text="倒数日" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="娱乐"/>
+        <Button android:id="@+id/btn_media" android:text="音视频播放" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="系统"/>
+        <Button android:id="@+id/btn_sys_toolbox" android:text="系统工具箱" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sysscan" android:text="系统扫描" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_backdoor" android:text="后门扫描" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_backup" android:text="分区备份" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sysfile" android:text="系统文件修改" style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

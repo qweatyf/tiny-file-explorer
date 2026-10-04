@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="音频裁剪"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_at_pick" android:text="选 WAV" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_at_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选"
+        android:textColor="@color/text"
+        android:padding="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="起始秒"
+        android:textColor="@color/text"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_at_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@color/white"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束秒"
+        android:textColor="@color/text"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_at_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@color/white"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_at_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="裁剪"
+        style="@style/WhiteBtn"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:text="只支持 WAV（PCM），其他格式要重编码，做不了"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

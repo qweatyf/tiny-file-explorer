@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="图片转格式"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <Button android:id="@+id/btn_fmt_pick" android:text="选图片" style="@style/WhiteBtn"/>
+
+        <ImageView
+            android:id="@+id/iv_fmt_preview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_fmt_do"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选格式并转"
+            style="@style/WhiteBtn"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="支持转成 PNG / JPEG / WEBP"
+            android:textSize="12sp"
+            android:textColor="#888"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="音视频播放"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_pick_media" android:text="选择文件" style="@style/WhiteBtn"/>
+
+    <VideoView
+        android:id="@+id/vv_media"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:clickable="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button android:id="@+id/btn_05" android:text="0.5x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_075" android:text="0.75x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_1" android:text="1x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_15" android:text="1.5x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_2" android:text="2x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btn_3" android:text="3x" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

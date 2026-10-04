@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="内存实时监控"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_bg"
+        android:padding="20dp">
+
+        <TextView android:id="@+id/tv_mem_m_percent" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/main_pink"
+            android:textSize="32sp" android:textStyle="bold" android:gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <TextView android:id="@+id/tv_mem_m_total" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp" android:paddingBottom="10dp"/>
+
+        <TextView android:id="@+id/tv_mem_m_used" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp" android:paddingBottom="10dp"/>
+
+        <TextView android:id="@+id/tv_mem_m_avail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="每秒刷新一次"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>
