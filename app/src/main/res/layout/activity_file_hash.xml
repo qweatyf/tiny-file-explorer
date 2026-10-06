@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="哈希校验"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_hash_pick" android:text="选文件" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_hash_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选文件"
+        android:textColor="@color/text"
+        android:padding="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_hash_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="算哈希"
+        style="@style/WhiteBtn"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="会算出 MD5 / SHA-1 / SHA-256"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

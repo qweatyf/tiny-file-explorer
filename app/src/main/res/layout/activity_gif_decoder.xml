@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="GIF 拆帧"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_gifd_pick" android:text="选 GIF" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_gifd_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选"
+        android:textColor="@color/text"
+        android:padding="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_gifd_decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拆帧"
+        style="@style/WhiteBtn"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="拆出来的帧存到 Download/GIF帧/"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

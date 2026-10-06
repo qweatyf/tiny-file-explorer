@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="我的"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="30dp"/>
+
+    <Button android:id="@+id/btn_user" android:text="个人资料" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_account" android:text="账户信息" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_memo" android:text="备忘录" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_vault" android:text="保险箱" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mine_account_book" android:text="记账本" style="@style/WhiteBtn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button android:id="@+id/btn_logout" android:text="注销账号" style="@style/DangerBtn"/>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="网络流量监控"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"
+            android:layout_marginEnd="6dp">
+
+            <TextView
+                android:id="@+id/tv_net_rx_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_pink"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下载"
+                android:textSize="12sp"
+                android:textColor="#888"
+                android:gravity="center"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"
+            android:layout_marginStart="6dp">
+
+            <TextView
+                android:id="@+id/tv_net_tx_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_pink"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="上传"
+                android:textSize="12sp"
+                android:textColor="#888"
+                android:gravity="center"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_bg"
+        android:padding="20dp">
+
+        <TextView android:id="@+id/tv_net_rx" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp" android:paddingBottom="10dp"/>
+
+        <TextView android:id="@+id/tv_net_tx" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp" android:paddingBottom="10dp"/>
+
+        <TextView android:id="@+id/tv_net_total" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

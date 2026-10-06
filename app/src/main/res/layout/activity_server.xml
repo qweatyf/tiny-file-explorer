@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="本地服务器"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你的 IP：获取中..."
+        android:textSize="16sp"
+        android:textColor="@color/text"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="端口：8080"
+        android:textSize="16sp"
+        android:textColor="@color/text"
+        android:paddingBottom="20dp"/>
+
+    <Button android:id="@+id/btn_start" android:text="启动服务器" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_stop" android:text="停止服务器" style="@style/WhiteBtn"/>
+
+</LinearLayout>

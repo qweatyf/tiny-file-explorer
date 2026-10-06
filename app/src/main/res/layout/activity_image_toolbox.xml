@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="图片工具箱"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_img_compress" android:text="图片压缩" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_img_format" android:text="图片转格式" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_img_watermark" android:text="图片加水印" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_img_color" android:text="图片取色" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_gif_make" android:text="合成 GIF" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_gif_decode" android:text="GIF 拆帧" style="@style/WhiteBtn"/>
+
+</LinearLayout>

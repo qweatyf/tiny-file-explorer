@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="发送文件"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="对方 IP，如 192.168.1.5"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btn_pick" android:text="选择文件" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选择文件"
+        android:textColor="@color/text"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:paddingBottom="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb_send"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:visibility="gone"
+        android:paddingBottom="10dp"/>
+
+    <Button android:id="@+id/btn_send_now" android:text="发送" style="@style/WhiteBtn"/>
+
+</LinearLayout>

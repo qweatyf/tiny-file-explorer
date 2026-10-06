@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="文件工具箱"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_tool_encrypt" android:text="文件加密/解密" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_compress" android:text="压缩/解压" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_rename" android:text="批量重命名" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_search" android:text="文件搜索" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_compare" android:text="文件对比" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_hash" android:text="哈希校验" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_split" android:text="切分/合并" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_empty" android:text="空目录清理" style="@style/WhiteBtn"/>
+
+</LinearLayout>

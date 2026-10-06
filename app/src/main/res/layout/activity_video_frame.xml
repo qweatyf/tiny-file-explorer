@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="视频抽帧"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_vf_pick" android:text="选视频" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_vf_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未选"
+        android:textColor="@color/text"
+        android:padding="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抽第几秒的帧"
+        android:textColor="@color/text"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_vf_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@color/white"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btn_vf_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抽帧"
+        style="@style/WhiteBtn"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

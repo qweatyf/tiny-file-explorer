@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="网速测试"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/et_speed_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="测速文件 URL"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textUri"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_speed_start"
+        android:text="开始测速"
+        style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_speed_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="还没开始"
+        android:textColor="@color/text"
+        android:textSize="13sp"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_speed_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:textIsSelectable="true"
+            android:typeface="monospace"/>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="小型文件管理器"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FunctionActivity" />
+        <activity android:name=".EncryptActivity" />
+        <activity android:name=".MineActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".ServerActivity" />
+        <activity android:name=".TransferActivity" />
+        <activity android:name=".SendActivity" />
+        <activity android:name=".ReceiveActivity" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".ZipActivity" />
+        <activity android:name=".EditorActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".MemoActivity" />
+        <activity android:name=".VaultActivity" />
+        <activity android:name=".BackdoorActivity" />
+        <activity android:name=".BackupActivity" />
+        <activity android:name=".SysFileActivity" />
+        <activity android:name=".SysScanActivity" />
+        <activity android:name=".MemInfoActivity" />
+        <activity android:name=".UselessActivity" />
+        <activity android:name=".CryptoActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".ApksActivity" />
+        <activity android:name=".LinksActivity" />
+        <activity android:name=".MediaActivity" />
+        <activity android:name=".MorseAudioActivity" />
+        <activity android:name=".MorseTerminalActivity" />
+        <activity android:name=".RealTerminalActivity" />
+        <activity android:name=".BinActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".HardcoreDrawActivity" />
+        <activity android:name=".RealDrawActivity" />
+
+        <activity android:name=".GameActivity" android:exported="false" />
+        <activity
+            android:name=".MineGameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".QrActivity" />
+        <activity android:name=".QrGenActivity" />
+        <activity
+            android:name=".QrScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QrCaptureActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".ApkExtractActivity" />
+        <activity android:name=".FileToolboxActivity" />
+        <activity android:name=".FileEncryptActivity" />
+        <activity android:name=".FileCompressActivity" />
+        <activity android:name=".BatchRenameActivity" />
+        <activity android:name=".FileSearchActivity" />
+        <activity android:name=".FileCompareActivity" />
+        <activity android:name=".FileHashActivity" />
+        <activity android:name=".FileSplitActivity" />
+        <activity android:name=".EmptyDirActivity" />
+
+        <activity android:name=".ImageToolboxActivity" />
+        <activity android:name=".ImageCompressActivity" />
+        <activity android:name=".ImageFormatActivity" />
+        <activity android:name=".ImageWatermarkActivity" />
+        <activity android:name=".ImageColorActivity" />
+        <activity android:name=".GifMakeActivity" />
+        <activity android:name=".GifDecoderActivity" />
+
+        <activity android:name=".MediaToolboxActivity" />
+        <activity android:name=".VideoFrameActivity" />
+        <activity android:name=".AudioTrimActivity" />
+        <activity android:name=".VideoToAudioActivity" />
+        <activity android:name=".AudioInfoActivity" />
+
+        <activity android:name=".DocToolboxActivity" />
+        <activity android:name=".MarkdownViewActivity" />
+        <activity android:name=".CsvViewActivity" />
+        <activity android:name=".TextEncodingActivity" />
+        <activity android:name=".PdfMergeActivity" />
+
+        <activity android:name=".SystemToolboxActivity" />
+        <activity android:name=".CpuMonitorActivity" />
+        <activity android:name=".MemMonitorActivity" />
+        <activity android:name=".BatteryMonitorActivity" />
+        <activity android:name=".NetMonitorActivity" />
+        <activity android:name=".StorageAnalysisActivity" />
+        <activity android:name=".AppDetailActivity" />
+        <activity android:name=".AppUninstallActivity" />
+        <activity android:name=".AppFreezeActivity" />
+        <activity android:name=".AppCleanActivity" />
+        <activity android:name=".AppAutoStartActivity" />
+
+        <activity android:name=".NetToolboxActivity" />
+        <activity android:name=".HttpRequestActivity" />
+        <activity android:name=".LanScanActivity" />
+        <activity android:name=".PortScanActivity" />
+        <activity android:name=".SpeedTestActivity" />
+
+        <activity android:name=".CryptoToolboxActivity" />
+        <activity android:name=".AesToolActivity" />
+        <activity android:name=".HashToolActivity" />
+        <activity android:name=".PasswordGenActivity" />
+
+        <activity android:name=".UnitConvertActivity" />
+        <activity android:name=".ColorPickActivity" />
+        <activity android:name=".QrBatchActivity" />
+        <activity android:name=".ClockActivity" />
+        <activity android:name=".CountdownActivity" />
+        <activity android:name=".AccountBookActivity" />
+
+        <activity android:name=".StopwatchActivity" />
+        <activity android:name=".CountdownTimerActivity" />
+        <activity android:name=".AlarmClockActivity" />
+        <activity
+            android:name=".AlarmRingActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:showOnLockScreen="true"
+            android:turnScreenOn="true" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.myempty.activity2.ACTION_RING" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ChatService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+        <service
+            android:name=".MyServerService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+    </application>
+</manifest>

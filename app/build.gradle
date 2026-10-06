@@ -1,0 +1,46 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.myempty.activity2'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.example.myempty.activity2"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/DEPENDENCIES', 'META-INF/LICENSE',
+                         'META-INF/LICENSE.txt', 'META-INF/NOTICE',
+                         'META-INF/NOTICE.txt']
+        }
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.constraintlayout
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+    implementation files('libs/pinyin4j-2.5.0.jar')
+    implementation 'com.google.zxing:core:3.5.2'
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation files('libs/pdfbox-android-2.0.27.0.aar')
+}

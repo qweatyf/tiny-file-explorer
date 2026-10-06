@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="系统扫描"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView android:id="@+id/tv_manufacturer" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textColor="@color/text"
+                android:textSize="16sp" android:padding="8dp"/>
+
+            <TextView android:id="@+id/tv_model" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textColor="@color/text"
+                android:textSize="16sp" android:padding="8dp"/>
+
+            <TextView android:id="@+id/tv_version" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textColor="@color/text"
+                android:textSize="16sp" android:padding="8dp"/>
+
+            <TextView android:id="@+id/tv_bl" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textColor="@color/text"
+                android:textSize="16sp" android:padding="8dp"/>
+
+            <TextView android:id="@+id/tv_root" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textColor="@color/text"
+                android:textSize="16sp" android:padding="8dp"/>
+        </LinearLayout>
+
+        <Button android:id="@+id/btn_mem" android:text="内存信息" style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

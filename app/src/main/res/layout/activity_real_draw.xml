@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView style="@style/PinkTitle" android:text="真正画画"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btn_size_16" android:text="16" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_32" android:text="32" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_50" android:text="50" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_100" android:text="100" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <Button android:id="@+id/btn_size_120" android:text="120" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_350" android:text="350" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_450" android:text="450" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1" android:layout_marginEnd="4dp"/>
+            <Button android:id="@+id/btn_size_500" android:text="500" style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_pick_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="调色"
+                style="@style/WhiteBtn"/>
+
+            <View
+                android:id="@+id/view_current_color"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_pick_brush"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="笔：毛笔"
+                style="@style/WhiteBtn"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_eraser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="橡皮"
+                style="@style/WhiteBtn"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="清空"
+                style="@style/WhiteBtn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="粗细："
+                android:textColor="@color/text"/>
+
+            <SeekBar
+                android:id="@+id/sb_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="49"
+                android:progress="9"/>
+
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@color/text"
+                android:gravity="end"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_import"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="导入图片"
+            style="@style/WhiteBtn"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btn_save_draw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            style="@style/WhiteBtn"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
