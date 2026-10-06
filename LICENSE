@@ -1,9 +1,8 @@
 小型文件管理器 自定义开源许可 v1.0
 
-Copyright (c) 2026 常见
+Copyright (c) 2026 常贝
 
 你可以：
-
 1. 白嫖、随便用
 2. 魔改源码
 3. 拿去卖钱
@@ -12,21 +11,25 @@ Copyright (c) 2026 常见
 但是：
 
 一、署名
-   发的时候，README / LICENSE / 关于页面 / 启动页
-   随便留一个地方写清楚原作者是谁。
+发的时候，README / LICENSE / 关于页面 / 启动页
+随便留一个地方写清楚原作者是谁。
 
 二、别装
-   别对外说这玩意是你从零写的，
-   要说基于 小型文件管理器 改的。
+别对外说这玩意是你从零写的，
+要说基于 小型文件管理器 改的。
 
 三、免责
-   代码按现状给，跑炸了别找我。
+代码按现状给，跑炸了别找我。
 
 四、别乱用
-   别拿去干违法的事，出事自己扛。
+别拿去干违法的事，出事自己扛。
 
-五、联系方式
-   ygrudh@proton.me
+五、适用范围
+本许可协议永久有效，且自动适用于本仓库内过去、现在以及未来所有的代码版本。
+无论作者日后是否继续更新，任何人仍可依据本协议，对仓库中已有的任意版本进行商用、修改及分发。
+
+六、联系方式
+ygrudh@proton.me
 
 不遵守上面几条，授权直接作废。
 
@@ -34,10 +37,9 @@ Copyright (c) 2026 常见
 
 Mini File Manager Custom Open Source License v1.0
 
-Copyright (c) 2026 Changjian
+Copyright (c) 2026 常见
 
 You can:
-
 1. Use it for free, do whatever
 2. Modify the source code
 3. Sell it for money
@@ -46,20 +48,24 @@ You can:
 But:
 
 1. Attribution
-   When you distribute it, keep the original author's name
-   in README / LICENSE / About page / Splash screen.
+When you distribute it, keep the original author's name
+in README / LICENSE / About page / Splash screen.
 
 2. Don't claim it as yours
-   Don't say you wrote it from scratch,
-   say it's based on Mini File Manager.
+Don't say you wrote it from scratch,
+say it's based on Mini File Manager.
 
 3. No warranty
-   Code is provided as-is, if it breaks, don't blame me.
+Code is provided as-is, if it breaks, don't blame me.
 
-4. Don't do illegal stuff
-   Don't use it for illegal purposes, you take the consequences.
+4. Do not do illegal stuff
+Don't use it for illegal purposes, you take the consequences.
 
-5. Contact
-   ygrudh@proton.me
+5. Scope of Application
+This license is permanent and automatically applies to all past, present, and future code versions in this repository. 
+Regardless of whether the author continues to update, anyone may still commercialize, modify, and distribute any existing version under this license.
+
+6. Contact
+ygrudh@proton.me
 
 If you don't follow the rules above, the license is void.
