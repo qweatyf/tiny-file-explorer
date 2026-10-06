@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="音视频工具箱"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_mt_frame" android:text="视频抽帧" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_trim" android:text="音频裁剪（WAV）" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_extract" android:text="视频转音频" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_info" android:text="音频信息查看" style="@style/WhiteBtn"/>
+
+</LinearLayout>

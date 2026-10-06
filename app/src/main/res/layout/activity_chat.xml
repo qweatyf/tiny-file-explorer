@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink">
+
+    <LinearLayout
+        android:id="@+id/chat_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/pink_light"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_chat_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本地聊天"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_chat_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正在启动..."
+            android:textSize="12sp"
+            android:textColor="@color/text"
+            android:gravity="center"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_chat_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#B71C1C"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_chat_msgs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/pink_light"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_chat_plus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:textSize="20sp"
+            android:textColor="@color/main_pink"
+            android:background="@drawable/circle_bg"
+            android:padding="0dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"/>
+
+        <EditText
+            android:id="@+id/et_chat_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:hint="输点啥..."
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="4"/>
+
+        <Button
+            android:id="@+id/btn_chat_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            style="@style/WhiteBtn"
+            android:minWidth="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

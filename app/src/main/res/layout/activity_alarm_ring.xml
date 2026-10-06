@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tv_ring_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:textColor="@color/main_pink"
+        android:typeface="monospace"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="闹钟"
+        android:textSize="20sp"
+        android:textColor="@color/text"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_ring_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间到"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_ring_stop"
+        android:text="停止"
+        style="@style/WhiteBtn"
+        android:layout_width="200dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="点停止才会安静下来"
+        android:textSize="12sp"
+        android:textColor="#888"
+        android:gravity="center"/>
+
+</LinearLayout>

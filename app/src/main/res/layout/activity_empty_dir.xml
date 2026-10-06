@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="12dp">
+
+    <TextView style="@style/PinkTitle" android:text="空目录清理"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/et_empty_dir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="目录（默认 /storage/emulated/0）"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_empty_scan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="扫一下"
+            style="@style/WhiteBtn"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btn_empty_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="全删了"
+            style="@style/WhiteBtn"
+            android:layout_marginStart="6dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_empty_dirs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="6dp"/>
+
+</LinearLayout>

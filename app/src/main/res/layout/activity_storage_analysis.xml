@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="存储分析"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_storage_scan"
+            android:text="开始扫描"
+            style="@style/WhiteBtn"/>
+
+        <LinearLayout
+            android:id="@+id/ll_storage_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

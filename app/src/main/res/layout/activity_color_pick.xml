@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="颜色选择器"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:id="@+id/view_cp_preview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#D87093"/>
+
+    <TextView
+        android:id="@+id/tv_cp_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:typeface="monospace"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button android:id="@+id/btn_cp_pick" android:text="选颜色"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_marginEnd="6dp"/>
+
+        <Button android:id="@+id/btn_cp_copy" android:text="复制色值"
+            style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_marginStart="6dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="@color/pink_light">
+
+        <TextView
+            android:id="@+id/tv_mine_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="010"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"
+            android:gravity="center"
+            android:background="@color/white"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn_flag_mode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:text="插旗：关"
+            style="@style/WhiteBtn"/>
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"
+            android:gravity="center"
+            android:background="@color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:fillViewport="true">
+
+            <com.example.myempty.activity2.MineView
+                android:id="@+id/mine_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/pink_light">
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="重开"
+            style="@style/WhiteBtn"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="新局"
+            style="@style/WhiteBtn"
+            android:layout_marginStart="6dp"/>
+    </LinearLayout>
+
+</LinearLayout>

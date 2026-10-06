@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="加密"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="30dp"/>
+
+        <Button android:id="@+id/btn_bin" android:text="文本/二进制翻译" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_base64" android:text="BASE64 加密/解密" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_morse" android:text="摩斯电码加密/解密" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_seven" android:text="七层加密/解密" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_pinyin" android:text="中文转拼音" style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

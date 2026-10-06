@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="摩斯电码音频生成"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/et_morse_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入英文或数字"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btn_gen_morse" android:text="生成 .wav"
+        style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_morse_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:textColor="@color/text"
+        android:padding="12dp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

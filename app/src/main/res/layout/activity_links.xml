@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="链接导航页"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/lv_links"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:divider="@null"
+        android:dividerHeight="10dp"/>
+
+</LinearLayout>

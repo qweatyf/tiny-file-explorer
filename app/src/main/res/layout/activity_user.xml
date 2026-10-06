@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="个人资料"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_bg"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:paddingBottom="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"/>
+
+        <Button
+            android:id="@+id/btn_user_rename"
+            android:text="改名字"
+            style="@style/WhiteBtn"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_user_delete_avatar"
+            android:text="删掉当前头像"
+            style="@style/WhiteBtn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="点头像可以换图、删图"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

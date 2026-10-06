@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView style="@style/PinkTitle" android:text="端口扫描"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/et_port_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IP 或域名，如 192.168.1.1"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/et_port_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="起始端口"
+            android:inputType="number"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ~ "
+            android:textColor="@color/text"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/et_port_end"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="结束端口"
+            android:inputType="number"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_port_scan"
+        android:text="开始扫描"
+        style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_port_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="还没开始"
+        android:textColor="@color/text"
+        android:textSize="13sp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/lv_port_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
