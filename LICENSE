@@ -1,0 +1,113 @@
+小型文件管理器 自定义开源许可 v1.0
+
+Copyright (c) 2026 常见
+
+你可以：
+1. 白嫖、随便用
+2. 魔改源码
+3. 拿去卖钱
+4. 原版或改版都随便发
+
+但是：
+
+一、署名
+发的时候，README / LICENSE / 关于页面 / 启动页
+随便留一个地方写清楚原作者是谁。
+
+二、别装
+别对外说这玩意是你从零写的，
+要说基于 小型文件管理器 改的。
+
+三、免责
+代码按现状给，跑炸了别找我。
+
+四、别乱用
+别拿去干违法的事，出事自己扛。
+
+五、适用范围
+本许可协议永久有效，且自动适用于本仓库内过去、现在以及未来所有的代码版本。
+无论作者日后是否继续更新，任何人仍可依据本协议，对仓库中已有的任意版本进行商用、修改及分发。
+
+六、联系方式
+ygrudh@proton.me
+
+不遵守上面几条，授权直接作废。
+
+Mini File Manager Custom Open Source License v1.0
+
+Copyright (c) 2026 常见
+
+You can:
+1. Use it for free, do whatever
+2. Modify the source code
+3. Sell it for money
+4. Distribute the original or modified version
+
+But:
+
+1. Attribution
+When you distribute it, keep the original author's name
+in README / LICENSE / About page / Splash screen.
+
+2. Don't claim it as yours
+Don't say you wrote it from scratch,
+say it's based on Mini File Manager.
+
+3. No warranty
+Code is provided as-is, if it breaks, don't blame me.
+
+4. Do not do illegal stuff
+Don't use it for illegal purposes, you take the consequences.
+
+5. Scope of Application
+This license is permanent and automatically applies to all past, present, and future code versions in this repository.
+Regardless of whether the author continues to update, anyone may still commercialize, modify, and distribute any existing version under this license.
+
+6. Contact
+ygrudh@proton.me
+
+If you don't follow the rules above, the license is void.
+
+第三方组件说明
+
+本项目使用了以下第三方开源组件，这些组件各自遵循其原始协议：
+
+Three.js，MIT，https://threejs.org/
+NanoHTTPD，BSD 3-Clause，https://github.com/NanoHttpd/nanohttpd
+zxing core，Apache 2.0，https://github.com/zxing/zxing
+zxing-android-embedded，Apache 2.0，https://github.com/journeyapps/zxing-android-embedded
+pdfbox-android，Apache 2.0，https://github.com/TomRoush/PdfBox-Android
+pinyin4j，GPL，https://sourceforge.net/projects/pinyin4j/
+NASA Blue Marble，Public Domain，https://visibleearth.nasa.gov/collection/1484/blue-marble
+
+其中，pinyin4j 采用 GPL 协议。本项目的整体协议（见上文）不覆盖 pinyin4j 部分。如果你希望将本项目用于闭源商用，需要自行替换 pinyin4j，或者遵循 GPL 协议的相关要求。
+
+以上第三方组件的版权归各自作者所有。
+
+Third-party Components
+
+This project uses the following third-party open source components, each under its own original license:
+
+Three.js, MIT, https://threejs.org/
+NanoHTTPD, BSD 3-Clause, https://github.com/NanoHttpd/nanohttpd
+zxing core, Apache 2.0, https://github.com/zxing/zxing
+zxing-android-embedded, Apache 2.0, https://github.com/journeyapps/zxing-android-embedded
+pdfbox-android, Apache 2.0, https://github.com/TomRoush/PdfBox-Android
+pinyin4j, GPL, https://sourceforge.net/projects/pinyin4j/
+NASA Blue Marble, Public Domain, https://visibleearth.nasa.gov/collection/1484/blue-marble
+
+Note: pinyin4j is licensed under GPL. The custom license of this project (see above) does not cover the pinyin4j part. If you want to use this project for closed-source commercial purposes, you need to replace pinyin4j or comply with GPL.
+
+All third-party components are copyrighted by their respective authors.
+
+七、协议变更
+
+作者保留修改本协议的权利。
+修改后的协议自发布之日起生效，仅适用于发布之后的代码版本。
+发布之前已经按旧协议授权的代码版本，仍按旧协议执行。
+
+Change of License
+
+The author reserves the right to modify this license.
+The modified license takes effect on the date of publication and applies only to code versions released after that date.
+Code versions released before the modification remain under the original license.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选笔"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/main_pink"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_pencil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="铅笔"
+        style="@style/WhiteBtn"/>
+
+    <Button
+        android:id="@+id/btn_pen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆珠笔"
+        style="@style/WhiteBtn"/>
+
+    <Button
+        android:id="@+id/btn_brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="毛笔"
+        style="@style/WhiteBtn"/>
+
+</LinearLayout>

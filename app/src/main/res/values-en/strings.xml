@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mini File Manager</string>
+    <string name="transfer_key">CHANGE_ME_BEFORE_RELEASE_2024</string>
+
+    <string name="lang_title">Language / 语言</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="lang_tip">App will restart after switching</string>
+    <string name="lang_confirm">Switch language?</string>
+    <string name="lang_ok">OK</string>
+    <string name="lang_cancel">Cancel</string>
+    <string name="root_tip_title">Tip</string>
+    <string name="root_tip_msg">Root permission required.</string>
+
+    <string name="main_title">Mini File Manager</string>
+    <string name="main_func">Functions</string>
+    <string name="main_encrypt">Encrypt</string>
+    <string name="main_game">Games</string>
+    <string name="main_mine">Me</string>
+
+    <string name="help_title">Help</string>
+    <string name="help_update">Updates</string>
+    <string name="help_about">About</string>
+    <string name="help_copyright">Copyright</string>
+    <string name="help_promo">Open Source</string>
+    <string name="help_agreement">Terms</string>
+    <string name="help_language">Language / 语言</string>
+    <string name="help_update_text">Current version: 2.0\n\nWhat\'s new:\n1. System Toolbox added\n2. Network Toolbox added\n3. Crypto Toolbox added\n4. Overall experience improved</string>
+    <string name="help_about_text">Mini File Manager\n\nVersion: 2.0\n\nFile management, encryption, quick transfer, all in one.</string>
+    <string name="help_copyright_text">This is an open source tool for learning and personal use only.\n\nIf any content involves copyright issues, please contact us.</string>
+    <string name="help_promo_text">Source code is public, free to use and modify.\n\nFeedback and suggestions are welcome.</string>
+    <string name="agreement_text">Please read the following terms before use:\n\n1. This is an open source tool for learning and personal use only.\n2. Do not use it for any illegal purpose.\n3. Some features involve system permissions, use at your own risk.\n4. This project does not collect or upload any user data.\n5. By using this project you agree to the above terms.\n\nTap \"OK\" to confirm you have read and accepted.</string>
+
+    <string name="server_channel_name">Local Server</string>
+    <string name="server_running">Local server running</string>
+    <string name="server_running_hint">Tap to open app</string>
+
+    <string name="chat_pass_too_short">Password must be at least 6 chars</string>
+    <string name="chat_join_fail">Cannot reach host</string>
+    <string name="chat_bad_pass">Wrong password</string>
+    <string name="chat_muted">You are muted</string>
+    <string name="chat_host_lost">Host is offline</string>
+    <string name="chat_kicked">You were kicked</string>
+    <string name="chat_image">Image</string>
+    <string name="chat_file">File</string>
+    <string name="chat_mute">Mute</string>
+    <string name="chat_unmute">Unmute</string>
+    <string name="chat_kick">Kick</string>
+    <string name="chat_kick_confirm">Kick this user?</string>
+    <string name="chat_sys_muted">[System] %1$s muted</string>
+    <string name="chat_sys_unmuted">[System] %1$s unmuted</string>
+    <string name="chat_sys_kicked">[System] %1$s kicked</string>
+    <string name="chat_sys_bad_pass">[Security] %1$s tried to join, wrong password</string>
+    <string name="chat_service_running">Chat service running</string>
+    <string name="chat_channel_name">Chat Service</string>
+    <string name="chat_remote_mode">Server Mode</string>
+    <string name="chat_local_mode">Local Mode</string>
+    <string name="chat_remote_need_login">Please connect to server in Settings first</string>
+
+    <string name="alarm_default_label">Time\'s up</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_type_title">Repeat</string>
+    <string name="alarm_type_once">Once</string>
+    <string name="alarm_type_daily">Daily</string>
+    <string name="alarm_type_weekly">Weekly</string>
+    <string name="alarm_need_week">Pick at least one day</string>
+    <string name="alarm_pick_music">Pick Music</string>
+    <string name="alarm_music_saved">Music saved</string>
+    <string name="alarm_list_title">Alarms</string>
+    <string name="alarm_delete_title">Delete Alarm</string>
+    <string name="week_mon">Mon</string>
+    <string name="week_tue">Tue</string>
+    <string name="week_wed">Wed</string>
+    <string name="week_thu">Thu</string>
+    <string name="week_fri">Fri</string>
+    <string name="week_sat">Sat</string>
+    <string name="week_sun">Sun</string>
+    <string name="week_mon_short">M</string>
+    <string name="week_tue_short">T</string>
+    <string name="week_wed_short">W</string>
+    <string name="week_thu_short">T</string>
+    <string name="week_fri_short">F</string>
+    <string name="week_sat_short">S</string>
+    <string name="week_sun_short">S</string>
+
+    <string name="battery_charging">Charging</string>
+    <string name="battery_full">Full</string>
+    <string name="battery_discharging">Discharging</string>
+    <string name="battery_unknown">Unknown</string>
+
+    <string name="app_freeze">Freeze</string>
+    <string name="app_unfreeze">Unfreeze</string>
+    <string name="app_clean_cache">Clear Cache</string>
+    <string name="app_clean_data">Clear Data</string>
+    <string name="app_clean_confirm">Confirm clean?</string>
+
+    <string name="send_no_ip">Enter IP first</string>
+    <string name="send_progress">%1$d%%</string>
+    <string name="send_remote_mode">Via server</string>
+
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_cleared">Cleared, back to local mode</string>
+    <string name="settings_no_url">Enter server address</string>
+    <string name="settings_testing">Testing...</string>
+    <string name="settings_connected">Connected</string>
+    <string name="settings_not_connected">Not connected</string>
+    <string name="settings_fail">Connection failed</string>
+
+    <string name="server_started">Server started</string>
+    <string name="server_stopped">Server stopped</string>
+    <string name="server_start">Start Server</string>
+    <string name="server_stop">Stop Server</string>
+    <string name="server_not_running">Server is not running</string>
+
+    <string name="receive_empty">No files received yet</string>
+    <string name="receive_open_fail">Cannot open this file</string>
+
+    <string name="transfer_need_server">Start local server first</string>
+
+    <string name="qr_perm_denied">No camera permission</string>
+    <string name="qr_not_link">Not a link</string>
+    <string name="qr_pay_warn">This looks like a payment link, open anyway?</string>
+    <string name="qr_open">Open</string>
+
+    <string name="gif_pick_images">Pick Images</string>
+    <string name="gif_pick_video">Pick Video</string>
+    <string name="gif_start">Start</string>
+    <string name="gif_end">End</string>
+    <string name="gif_fps">FPS</string>
+    <string name="gif_delay_hint">Frame delay (ms)</string>
+    <string name="gif_full">All</string>
+    <string name="gif_custom_range">Custom Range</string>
+
+    <string name="search_copy_path">Copy Path</string>
+    <string name="search_copy_name">Copy Name</string>
+
+    <string name="split_merge_title">Merge Split Files</string>
+    <string name="split_merge_hint">Enter the split folder path</string>
+
+    <string name="empty_scanning">Scanning</string>
+
+    <string name="terminal_session">Switch Session</string>
+    <string name="terminal_session_msg">Terminal continues in the same session</string>
+    <string name="terminal_font">Font</string>
+
+    <string name="apk_extract_do">Extract APK</string>
+    <string name="apk_info">App Info</string>
+    <string name="apk_sys">System App</string>
+    <string name="apk_user">User App</string>
+
+    <string name="shell_bye">Bye</string>
+    <string name="shell_builtin">Built-in: %1$s</string>
+    <string name="shell_not_found">Command not found: %1$s</string>
+    <string name="shell_help_hint2">Type help to see all commands</string>
+    <string name="shell_slept">Slept %1$d ms</string>
+
+    <string name="server_ok">ok</string>
+    <string name="server_empty">Empty?</string>
+    <string name="server_hash_fail">Hash mismatch</string>
+    <string name="server_crash">Crashed: %1$s</string>
+    <string name="server_html_title">Server is running</string>
+    <string name="server_html_hint">Upload files via /upload</string>
+
+    <string name="hardcore_err">Only 0 or 1 allowed</string>
+    <string name="hardcore_grid">Grid</string>
+    <string name="hardcore_table">Color Table</string>
+    <string name="hardcore_preview">Preview</string>
+    <string name="hardcore_generate">Generate</string>
+
+    <string name="real_draw_on">ON</string>
+    <string name="real_draw_off">OFF</string>
+
+    <string name="backup_skip_userdata">Skip userdata</string>
+    <string name="backup_skip_nospace">Skip %1$s (no space)</string>
+    <string name="backup_ok">OK %1$s</string>
+    <string name="backup_fail">FAIL %1$s - %2$s</string>
+    <string name="backup_no_root">No root</string>
+
+    <string name="backdoor_scanning">Scanning...</string>
+    <string name="backdoor_done">Done</string>
+    <string name="backdoor_ok">Safe</string>
+    <string name="backdoor_suspect">Suspect: %1$s\nMatch: %2$s</string>
+    <string name="backdoor_warn">Found %1$d suspects</string>
+
+    <string name="zip_dir_suffix">_unzipped</string>
+
+    <string name="unspecified">-</string>
+
+    <string name="sysscan_manufacturer">Manufacturer</string>
+    <string name="sysscan_model">Model</string>
+    <string name="sysscan_version">Android Version</string>
+    <string name="sysscan_bootloader">Bootloader</string>
+    <string name="sysscan_root">Rooted</string>
+    <string name="sysscan_colon">: </string>
+
+    <string name="media_play">Play</string>
+    <string name="media_pause">Pause</string>
+    <string name="media_no_lyric">No lyrics (need same-name .lrc file)</string>
+    <string name="audio_decode_fail">Decode failed, audio may have noise</string>
+    <string name="audio_decode_unclear">May be inaccurate</string>
+    <string name="audio_decode_error">Decode failed: %1$s</string>
+
+    <string name="monitor_cpu_title">CPU Usage</string>
+    <string name="monitor_battery_title">Battery Level</string>
+    <string name="monitor_cores">Cores</string>
+    <string name="monitor_temp">Temp</string>
+    <string name="monitor_current">Current</string>
+    <string name="monitor_voltage">Voltage</string>
+    <string name="monitor_no_data">No app data</string>
+    <string name="monitor_need_root">Root required to see per-app usage</string>
+    <string name="monitor_unsupported">Your device does not support 3D view</string>
+    <string name="monitor_unsupported_hint">Possible reasons: device too old, WebGL not supported, or system WebView too old. Update Android System WebView and try again.</string>
+    <string name="monitor_avg">Average</string>
+
+    <string name="battery_health_title">Battery Health</string>
+    <string name="battery_health_estimate">Health Estimate</string>
+    <string name="battery_health_design">Design capacity (mAh)</string>
+    <string name="battery_health_current">Current full capacity (mAh)</string>
+    <string name="battery_health_save">Save</string>
+    <string name="battery_health_design_hint">Cannot read design capacity, enter manually</string>
+    <string name="battery_health_current_hint">Cannot read current capacity, enter manually</string>
+    <string name="battery_health_auto_hint">Auto detected: %1$d mAh</string>
+    <string name="battery_health_saved">Saved</string>
+    <string name="battery_health_value">%1$d%%</string>
+
+    <string name="cpu_detail_title">App Detail</string>
+    <string name="cpu_detail_cpu">CPU Usage</string>
+    <string name="cpu_detail_mem">Memory Usage</string>
+    <string name="cpu_detail_history">History Curve</string>
+
+    <string name="github_title">Upload to GitHub</string>
+    <string name="github_token_hint">GitHub Token</string>
+    <string name="github_check">Check Token</string>
+    <string name="github_clear">Clear Token</string>
+    <string name="github_owner_hint">GitHub username (owner)</string>
+    <string name="github_repo_hint">Repository name (repo)</string>
+    <string name="github_branch_hint">Branch (default main)</string>
+    <string name="github_msg_hint">Commit message</string>
+    <string name="github_dir_hint">Local directory path</string>
+    <string name="github_exclude_hint">Exclude (comma or newline, supports *)</string>
+    <string name="github_pick_dir">Pick Dir</string>
+    <string name="github_upload">Upload</string>
+    <string name="github_no_dir">No directory selected</string>
+    <string name="github_token_saved">Token saved</string>
+    <string name="github_token_empty">Enter token first</string>
+    <string name="github_token_ok">Token valid, user: %1$s</string>
+    <string name="github_token_fail">Token invalid: %1$s</string>
+    <string name="github_checking">Checking...</string>
+    <string name="github_cleared">Cleared</string>
+    <string name="github_need_input">Token / owner / repo / dir required</string>
+    <string name="github_dir_fail">Directory not found</string>
+    <string name="github_upload_done">Upload done:</string>
+    <string name="github_upload_fail">Upload failed: </string>
+
+    <string name="earth_title">3D Earth</string>
+    <string name="earth_lat">Latitude</string>
+    <string name="earth_lon">Longitude</string>
+    <string name="earth_zoom">Zoom</string>
+    <string name="earth_hint">Drag to rotate, pinch to zoom</string>
+    <string name="earth_btn_lat">Latitude</string>
+    <string name="earth_btn_lon">Longitude</string>
+    <string name="earth_btn_mag">Magnetic</string>
+    <string name="func_title">Functions</string>
+    <string name="group_file">File</string>
+    <string name="group_network">Network</string>
+    <string name="group_draw">Drawing</string>
+    <string name="group_terminal">Terminal</string>
+    <string name="group_tool">Tools</string>
+    <string name="group_utility">Utilities</string>
+    <string name="group_entertainment">Entertainment</string>
+    <string name="group_system">System</string>
+    <string name="group_monitor">Monitor</string>
+    <string name="group_app">App</string>
+    <string name="group_root">Root Only</string>
+
+    <string name="btn_file">File Manager</string>
+    <string name="btn_file_toolbox">File Toolbox</string>
+    <string name="btn_apks">APKS Merge</string>
+    <string name="btn_server">Local Server</string>
+    <string name="btn_transfer">Quick Transfer</string>
+    <string name="btn_links">Links</string>
+    <string name="btn_net_toolbox">Network Toolbox</string>
+    <string name="btn_settings">Server Settings</string>
+    <string name="btn_github">Upload to GitHub</string>
+    <string name="btn_real_draw">Real Draw</string>
+    <string name="btn_hardcore_draw">Hardcore Draw</string>
+    <string name="btn_morse_audio">Morse Audio</string>
+    <string name="btn_morse_terminal">Morse Terminal</string>
+    <string name="btn_real_terminal">Real Terminal</string>
+    <string name="btn_qr">QR Code</string>
+    <string name="btn_chat">Local Chat</string>
+    <string name="btn_apk_extract">APK Extract</string>
+    <string name="btn_image_toolbox">Image Toolbox</string>
+    <string name="btn_doc_toolbox">Document Toolbox</string>
+    <string name="btn_media_toolbox">Media Toolbox</string>
+    <string name="btn_crypto_toolbox">Crypto Toolbox</string>
+    <string name="btn_earth3d">3D Earth</string>
+    <string name="btn_unit_convert">Unit Convert</string>
+    <string name="btn_color_pick">Color Picker</string>
+    <string name="btn_qr_batch">QR Batch</string>
+    <string name="btn_clock">Clock</string>
+    <string name="btn_countdown">Countdown Days</string>
+    <string name="btn_stopwatch">Stopwatch</string>
+    <string name="btn_countdown_timer">Countdown Timer</string>
+    <string name="btn_alarm_clock">Alarm Clock</string>
+    <string name="btn_media">Media Player</string>
+    <string name="btn_sys_toolbox">System Toolbox</string>
+    <string name="btn_sysscan">System Scan</string>
+    <string name="btn_backdoor">Backdoor Scan</string>
+    <string name="btn_backup">Partition Backup</string>
+    <string name="btn_sysfile">System Files</string>
+
+    <string name="mine_title">Me</string>
+    <string name="btn_user">Profile</string>
+    <string name="btn_account">Account</string>
+    <string name="btn_memo">Memo</string>
+    <string name="btn_vault">Vault</string>
+    <string name="btn_mine_account_book">Account Book</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="logout_title">Log Out</string>
+    <string name="logout_msg">Really log out? You will need to re-enter the card key.</string>
+    <string name="logout_confirm">Confirm</string>
+    <string name="logout_cancel">Cancel</string>
+    <string name="logout_done">Logged out</string>
+
+    <string name="game_title">Games</string>
+    <string name="btn_mine">Minesweeper</string>
+
+    <string name="enc_title">Encrypt</string>
+    <string name="btn_bin">Text/Binary</string>
+    <string name="btn_base64">BASE64</string>
+    <string name="btn_morse">Morse Code</string>
+    <string name="btn_seven">Seven Layers</string>
+    <string name="btn_pinyin">Chinese to Pinyin</string>
+
+    <string name="title_main">Mini File Manager</string>
+    <string name="title_func">Functions</string>
+    <string name="title_encrypt">Encrypt</string>
+    <string name="title_mine">Me</string>
+    <string name="title_help">Help</string>
+    <string name="title_language">Language</string>
+    <string name="title_user">Profile</string>
+    <string name="title_account">Account</string>
+    <string name="title_memo">Memo</string>
+    <string name="title_vault">Vault</string>
+    <string name="title_game">Games</string>
+    <string name="title_file">File Manager</string>
+    <string name="title_zip">Unzip</string>
+    <string name="title_editor">Editor</string>
+    <string name="title_file_toolbox">File Toolbox</string>
+    <string name="title_file_encrypt">File Encrypt</string>
+    <string name="title_file_compress">Compress / Unzip</string>
+    <string name="title_batch_rename">Batch Rename</string>
+    <string name="title_file_search">File Search</string>
+    <string name="title_file_compare">File Compare</string>
+    <string name="title_file_hash">File Hash</string>
+    <string name="title_file_split">File Split</string>
+    <string name="title_empty_dir">Empty Dir Clean</string>
+    <string name="title_apks">APKS Merge</string>
+    <string name="title_apk_extract">APK Extract</string>
+    <string name="title_image_toolbox">Image Toolbox</string>
+    <string name="title_image_compress">Image Compress</string>
+    <string name="title_image_format">Image Format</string>
+    <string name="title_image_watermark">Watermark</string>
+    <string name="title_image_color">Image Color</string>
+    <string name="title_gif_make">GIF Maker</string>
+    <string name="title_gif_decoder">GIF Decoder</string>
+    <string name="title_image_view">Image Viewer</string>
+    <string name="title_media">Media Player</string>
+    <string name="title_media_toolbox">Media Toolbox</string>
+    <string name="title_video_frame">Video Frame</string>
+    <string name="title_audio_trim">Audio Trim</string>
+    <string name="title_video_to_audio">Video to Audio</string>
+    <string name="title_audio_info">Audio Info</string>
+    <string name="title_morse_audio">Morse Audio</string>
+    <string name="title_morse_terminal">Morse Terminal</string>
+    <string name="title_real_terminal">Real Terminal</string>
+    <string name="title_doc_toolbox">Document Toolbox</string>
+    <string name="title_markdown_view">Markdown View</string>
+    <string name="title_csv_view">CSV View</string>
+    <string name="title_text_encoding">Text Encoding</string>
+    <string name="title_pdf_merge">PDF Merge</string>
+    <string name="title_crypto">Crypto Tool</string>
+    <string name="title_bin">Text / Binary</string>
+    <string name="title_server">Local Server</string>
+    <string name="title_transfer">Quick Transfer</string>
+    <string name="title_send">Send File</string>
+    <string name="title_receive">Receive File</string>
+    <string name="title_links">Links</string>
+    <string name="title_sys_scan">System Scan</string>
+    <string name="title_sys_file">System Files</string>
+    <string name="title_mem_info">Memory Info</string>
+    <string name="title_useless">Useless Processes</string>
+    <string name="title_backdoor">Backdoor Scan</string>
+    <string name="title_backup">Partition Backup</string>
+    <string name="title_system_toolbox">System Toolbox</string>
+    <string name="title_cpu_monitor">CPU Monitor</string>
+    <string name="title_mem_monitor">Memory Monitor</string>
+    <string name="title_battery_monitor">Battery Monitor</string>
+    <string name="title_net_monitor">Net Monitor</string>
+    <string name="title_storage_analysis">Storage Analysis</string>
+    <string name="title_app_detail">App Detail</string>
+    <string name="title_app_uninstall">App Uninstall</string>
+    <string name="title_app_freeze">App Freeze</string>
+    <string name="title_app_clean">App Clean</string>
+    <string name="title_app_auto_start">Auto Start</string>
+    <string name="title_net_toolbox">Network Toolbox</string>
+    <string name="title_http_request">HTTP Request</string>
+    <string name="title_lan_scan">LAN Scan</string>
+    <string name="title_port_scan">Port Scan</string>
+    <string name="title_speed_test">Speed Test</string>
+    <string name="title_crypto_toolbox">Crypto Toolbox</string>
+    <string name="title_aes_tool">AES Tool</string>
+    <string name="title_hash_tool">Hash Tool</string>
+    <string name="title_password_gen">Password Gen</string>
+    <string name="title_unit_convert">Unit Convert</string>
+    <string name="title_color_pick">Color Picker</string>
+    <string name="title_qr_batch">QR Batch</string>
+    <string name="title_clock">Clock</string>
+    <string name="title_countdown">Countdown Days</string>
+    <string name="title_account_book">Account Book</string>
+    <string name="title_stopwatch">Stopwatch</string>
+    <string name="title_countdown_timer">Countdown Timer</string>
+    <string name="title_alarm_clock">Alarm Clock</string>
+    <string name="title_alarm_ring">Alarm Ring</string>
+    <string name="title_real_draw">Real Draw</string>
+    <string name="title_hardcore_draw">Hardcore Draw</string>
+    <string name="title_qr">QR Code</string>
+    <string name="title_qr_gen">QR Generate</string>
+    <string name="title_qr_scan">QR Scan</string>
+    <string name="title_chat">Local Chat</string>
+    <string name="title_settings">Server Settings</string>
+    <string name="title_mine_game">Minesweeper</string>
+    <string name="title_github">Upload to GitHub</string>
+
+    <string name="file_enc_title">File Encrypt / Decrypt</string>
+    <string name="file_enc_pick">Pick File</string>
+    <string name="file_enc_none">No file selected</string>
+    <string name="file_enc_pass_hint">Password</string>
+    <string name="file_enc_do">Encrypt</string>
+    <string name="file_enc_dec">Decrypt</string>
+    <string name="file_enc_tip">Encrypted files go to Download/encrypted/\nDecrypted files go to Download/decrypted/</string>
+
+    <string name="file_empty">Cannot read or empty</string>
+    <string name="file_empty_hint">Type a path above to go</string>
+    <string name="file_dir">[DIR] </string>
+    <string name="file_doc">[FILE] </string>
+    <string name="file_path_hint">Path</string>
+    <string name="file_up">⬆</string>
+    <string name="file_exit_tip1">Swipe twice more to exit</string>
+    <string name="file_exit_tip2">Swipe once more to exit</string>
+    <string name="file_cancel">Cancel</string>
+    <string name="file_confirm">OK</string>
+    <string name="file_menu_rename">Rename</string>
+    <string name="file_menu_delete">Delete</string>
+    <string name="file_menu_copy">Copy to...</string>
+    <string name="file_menu_move">Move to...</string>
+    <string name="file_rename_title">Rename</string>
+    <string name="file_rename_ok">OK</string>
+    <string name="file_rename_cancel">Cancel</string>
+    <string name="file_rename_occupied">Name taken</string>
+    <string name="file_rename_fail">Cannot rename</string>
+    <string name="file_del_title">Delete</string>
+    <string name="file_del_msg">Deleted files cannot be recovered. Proceed with caution.</string>
+    <string name="file_del_ok">Delete</string>
+    <string name="file_del_cancel">Cancel</string>
+    <string name="file_del_done">Deleted</string>
+    <string name="file_del_fail">Cannot delete</string>
+    <string name="file_conflict_title">Name conflict</string>
+    <string name="file_conflict_msg">Target folder already has a file with the same name</string>
+    <string name="file_conflict_skip">Skip</string>
+    <string name="file_conflict_both">Keep both</string>
+    <string name="file_conflict_replace">Replace</string>
+    <string name="file_done">Done</string>
+    <string name="file_fail">Failed: </string>
+    <string name="file_path_not_exist">Path not found</string>
+    <string name="file_pick_dir">Pick a folder, not a file</string>
+    <string name="file_over_size">Over 20MB, cannot open</string>
+    <string name="file_not_text">Not a text file, cannot open</string>
+    <string name="file_sys_load_fail">System file read failed</string>
+    <string name="file_menu_compare_title">Compare Result</string>
+    <string name="file_search">Searching</string>
+
+    <string name="zip_open_fail">Cannot open: </string>
+    <string name="zip_options_view">View contents</string>
+    <string name="zip_options_unzip">Extract</string>
+    <string name="zip_options_cancel">Cancel</string>
+    <string name="zip_path_prefix">Inside: </string>
+    <string name="zip_read_fail">Cannot read: </string>
+    <string name="zip_unzip_to">Extracted to: </string>
+    <string name="zip_unzip_fail">Extract failed: </string>
+
+    <string name="editor_untitled">Untitled</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_read_fail">Cannot read: </string>
+    <string name="editor_saved">Saved as: </string>
+    <string name="editor_save_fail">Save failed: </string>
+
+    <string name="user_title">Profile</string>
+    <string name="user_default_name">User</string>
+    <string name="user_rename">Rename</string>
+    <string name="user_del_avatar">Delete current avatar</string>
+    <string name="user_tip">Tap avatar to change or delete</string>
+    <string name="user_rename_title">Rename</string>
+    <string name="user_rename_hint">Enter new name</string>
+    <string name="user_rename_ok">OK</string>
+    <string name="user_rename_cancel">Cancel</string>
+    <string name="user_rename_done">Renamed</string>
+    <string name="user_avatar_title">Avatar</string>
+    <string name="user_avatar_from_album">Pick from album</string>
+    <string name="user_avatar_camera">Camera</string>
+    <string name="user_avatar_delete">Delete avatar</string>
+    <string name="user_avatar_no_camera">Camera not supported yet</string>
+    <string name="user_avatar_no_avatar">No avatar yet</string>
+    <string name="user_avatar_del_confirm">Delete current avatar?</string>
+    <string name="user_avatar_del_ok">Delete</string>
+    <string name="user_avatar_del_cancel">Cancel</string>
+    <string name="user_avatar_del_done">Deleted</string>
+    <string name="user_avatar_done">Updated</string>
+    <string name="user_avatar_fail">Failed, try another image</string>
+
+    <string name="acc_title">Account Info</string>
+    <string name="acc_user">Username: </string>
+    <string name="acc_hash">Card hash: </string>
+    <string name="acc_time">Created: </string>
+    <string name="acc_unknown">Unknown</string>
+
+    <string name="memo_title">Memo</string>
+    <string name="memo_hint">Write something...</string>
+    <string name="memo_save">Save</string>
+    <string name="memo_saved">Saved locally</string>
+    <string name="memo_save_fail">Save failed: </string>
+
+    <string name="vault_title">Vault</string>
+    <string name="vault_pass_hint">Enter vault password</string>
+    <string name="vault_unlock">Unlock</string>
+    <string name="vault_save">Save</string>
+    <string name="vault_new">New vault, password remembered, write something and save</string>
+    <string name="vault_unlocked">Unlocked</string>
+    <string name="vault_wrong_pass">Wrong password</string>
+    <string name="vault_unlock_first">Unlock first</string>
+    <string name="vault_saved">Encrypted and saved</string>
+    <string name="vault_save_fail">Save failed: </string>
+
+    <string name="img_tool_title">Image Toolbox</string>
+    <string name="img_tool_compress">Image Compress</string>
+    <string name="img_tool_format">Image Format</string>
+    <string name="img_tool_watermark">Image Watermark</string>
+    <string name="img_tool_color">Image Color Picker</string>
+    <string name="img_tool_gif_make">GIF Maker</string>
+    <string name="img_tool_gif_decode">GIF Decoder</string>
+
+    <string name="media_tool_title">Media Toolbox</string>
+    <string name="media_tool_frame">Video Frame</string>
+    <string name="media_tool_trim">Audio Trim (WAV)</string>
+    <string name="media_tool_extract">Video to Audio</string>
+    <string name="media_tool_info">Audio Info</string>
+
+    <string name="file_tool_encrypt">File Encrypt</string>
+    <string name="file_tool_compress">Compress / Unzip</string>
+    <string name="file_tool_rename">Batch Rename</string>
+    <string name="file_tool_search">File Search</string>
+    <string name="file_tool_compare">File Compare</string>
+    <string name="file_tool_hash">File Hash</string>
+    <string name="file_tool_split">Split / Merge</string>
+    <string name="file_tool_empty">Empty Dir Clean</string>
+
+    <string name="doc_md">Markdown View</string>
+    <string name="doc_csv">CSV View</string>
+    <string name="doc_enc">Text Encoding</string>
+    <string name="doc_pdf">PDF Merge</string>
+
+    <string name="sys_cpu">CPU Monitor</string>
+    <string name="sys_mem">Memory Monitor</string>
+    <string name="sys_battery">Battery Monitor</string>
+    <string name="sys_net">Net Monitor</string>
+    <string name="sys_storage">Storage Analysis</string>
+    <string name="sys_app_detail">App Detail</string>
+    <string name="sys_app_uninstall">App Uninstall</string>
+    <string name="sys_app_freeze">App Freeze</string>
+    <string name="sys_app_clean">App Clean</string>
+    <string name="sys_app_autostart">Auto Start</string>
+
+    <string name="net_http">HTTP Request</string>
+    <string name="net_lan">LAN Scan</string>
+    <string name="net_port">Port Scan</string>
+    <string name="net_speed">Speed Test</string>
+
+    <string name="crypto_aes">AES Tool</string>
+    <string name="crypto_hash">Hash Tool</string>
+    <string name="crypto_pass">Password Gen</string>
+
+    <string name="doc_title_md">Markdown View</string>
+    <string name="doc_title_csv">CSV View</string>
+    <string name="doc_title_enc">Text Encoding</string>
+    <string name="doc_title_pdf">PDF Merge</string>
+
+    <string name="term_welcome">Welcome to Morse Terminal</string>
+    <string name="term_cmds">Commands:</string>
+    <string name="term_cmd_clear">clear    - clear screen</string>
+    <string name="term_cmd_open">open     - pick audio file</string>
+    <string name="term_cmd_decode">decode   - start decoding</string>
+    <string name="term_cmd_list">list     - view saved records</string>
+    <string name="term_cmd_clean">clean    - clean all</string>
+    <string name="term_cmd_clean_log">clean log    - clean log only</string>
+    <string name="term_cmd_clean_audio">clean audio  - clean audio cache</string>
+    <string name="term_cmd_clean_result">clean result - clean results</string>
+    <string name="term_cmd_history">history  - view history</string>
+    <string name="term_cmd_exit">exit     - exit</string>
+    <string name="term_tip">Tap screen to type, long press to copy</string>
+    <string name="term_swipe_exit">Swipe 3 times to exit</string>
+    <string name="term_cache_big">Cache is large</string>
+    <string name="term_cache_clear">Clear? Type clean to clear</string>
+    <string name="term_input_title">Input</string>
+    <string name="term_input_hint">Type Chinese, English or Morse</string>
+    <string name="term_unknown">Unsupported input</string>
+    <string name="term_morse_label">Morse: </string>
+    <string name="term_text_label">Text: </string>
+    <string name="term_saved_to">Saved to: </string>
+    <string name="term_done">Done</string>
+    <string name="term_time">Time: </string>
+    <string name="term_seconds">s</string>
+    <string name="term_no_result">No result yet</string>
+    <string name="term_result_prefix">[Result] </string>
+    <string name="term_exit_title">Exit?</string>
+    <string name="term_exit_msg">This will stop all background processes.</string>
+    <string name="term_read_file">Reading file...</string>
+    <string name="term_analyze">Analyzing audio...</string>
+    <string name="term_detected">Detected morse: </string>
+    <string name="term_note">Note: </string>
+    <string name="term_translating">Translating...</string>
+    <string name="term_pinyin">Pinyin: </string>
+    <string name="term_same_sound">Same sound: </string>
+    <string name="term_no_file">No file. Use open first.</string>
+    <string name="term_already_decoding">Already decoding</string>
+    <string name="term_no_file_loaded">No file loaded. Use open first.</string>
+    <string name="term_interrupted">Process interrupted</string>
+    <string name="term_file_loaded">Loaded: </string>
+    <string name="term_clean_done">Cleaned</string>
+    <string name="term_log_cleared">Log cleared</string>
+    <string name="term_audio_cleared">Audio cache cleared</string>
+    <string name="term_result_cleared">Results cleared</string>
+
+    <string name="shell_help_title">Categories: file / text / network / system / tool / extra / clean / chat / mirror</string>
+    <string name="shell_help_hint">Type help all for all, help CATEGORY for one</string>
+    <string name="shell_file">File: ls cd pwd cat head tail mkdir rm cp mv touch find du df stat tree file ln diff split truncate basename dirname</string>
+    <string name="shell_file_new">New: lsort lstat crc time xargs</string>
+    <string name="shell_text">Text: grep wc sort uniq cut tr sed awk base64 sha256sum md5sum xxd hexdump rev tac</string>
+    <string name="shell_text_new">New: join paste nl column fmt splitlines</string>
+    <string name="shell_network_dl">Download: wget download fetch curl http headers httpcode httptime redir speedtest stopdl</string>
+    <string name="shell_network_dns">DNS: dns dnsq mx txt ns whois</string>
+    <string name="shell_network_ip">IP: ip iplocal myip4 myip6 ipinfo gateway mac netinfo</string>
+    <string name="shell_network_conn">Connect: ping portcheck checkonline trace netstat</string>
+    <string name="shell_network_other">Other: url imginfo gh-mirror</string>
+    <string name="shell_system">System: ps uname whoami id env battery cpu mem disk net app uptime hostname locale export</string>
+    <string name="shell_system_new">New: top sysinfo sensors ipaddr cal dateu uptimep hostinfo</string>
+    <string name="shell_tool">Tool: clear help history exit sleep true false which alias set unset export source calc unit rand uuid pass json timestamp zip unzip timer count sum avg min max open share copy toast vibrate</string>
+    <string name="shell_extra">Extra: enc dec qrenc qrdec myip portscan repeat after at</string>
+    <string name="shell_clean">Clean: cleandata [-y]</string>
+    <string name="shell_chat">Chat: chatclear [-y]</string>
+    <string name="shell_mirror">Mirror: gh-mirror [on|off|list|use n|set url|reset]</string>
+    <string name="shell_unknown">Unknown category: </string>
+
+    <string name="shell_all_file">[File]</string>
+    <string name="shell_all_text">[Text]</string>
+    <string name="shell_all_net_dl">[Network-Download]</string>
+    <string name="shell_all_net_dns">[Network-DNS]</string>
+    <string name="shell_all_net_ip">[Network-IP]</string>
+    <string name="shell_all_net_conn">[Network-Connect]</string>
+    <string name="shell_all_net_other">[Network-Tool]</string>
+    <string name="shell_all_sys">[System]</string>
+    <string name="shell_all_tool">[Tool]</string>
+    <string name="shell_all_extra">[Extra]</string>
+    <string name="shell_all_clean">[Clean]</string>
+    <string name="shell_all_chat">[Chat]</string>
+    <string name="shell_all_base">Base: </string>
+    <string name="shell_all_new">New: </string>
+
+    <string name="settings_title">Server Settings</string>
+    <string name="settings_server_hint">Server address (empty = local mode)</string>
+    <string name="settings_server_url_hint">http://example.com:8080</string>
+    <string name="settings_token_hint">Token (optional, sent as Authorization header)</string>
+    <string name="settings_token_empty">Leave empty to skip</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_test">Test Connection</string>
+    <string name="settings_clear">Clear (back to local mode)</string>
+    <string name="settings_result_hint">Test result will show here</string>
+    <string name="settings_tip">Local mode = current LAN direct\nServer mode = all network features go to the address you set</string>
+
+    <string name="real_draw_brush">Color</string>
+    <string name="real_draw_pick_brush">Brush</string>
+    <string name="real_draw_eraser">Eraser</string>
+    <string name="real_draw_clear">Clear</string>
+    <string name="real_draw_import">Import Image</string>
+    <string name="real_draw_save">Save</string>
+
+    <string name="morse_gen_wav">Generate .wav</string>
+
+    <string name="color_pick_select">Pick Color</string>
+    <string name="color_pick_copy">Copy Color</string>
+
+    <string name="countdown_pick_date">Pick Date</string>
+    <string name="countdown_add">Add</string>
+    <string name="countdown_delete_tip">Long press to delete</string>
+    <string name="countdown_no_date">No date picked</string>
+    <string name="countdown_days_left">%1$d days left</string>
+    <string name="countdown_days_passed">%1$d days passed</string>
+    <string name="countdown_today">Today</string>
+
+    <string name="alarm_pick_ring">Pick Ringtone</string>
+    <string name="alarm_default_ring">Default Ringtone</string>
+    <string name="alarm_set">Set Alarm</string>
+    <string name="alarm_label_hint">Alarm label, e.g. Wake up</string>
+    <string name="alarm_tip">Tap the big number to change time\nAlarm + notification, works in background</string>
+    <string name="alarm_restore_default">Restored system default ringtone</string>
+    <string name="alarm_grant_exact">Grant exact alarm</string>
+    <string name="alarm_set_fmt">Alarm set for %1$02d:%2$02d\n\nRing + notify when time comes, works in background.</string>
+
+    <string name="stopwatch_start">Start</string>
+    <string name="stopwatch_pause">Pause</string>
+    <string name="stopwatch_continue">Continue</string>
+    <string name="stopwatch_lap_format">Lap %1$d  %2$s  (+%3$s)</string>
+
+    <string name="mine_custom_title">Custom Minesweeper</string>
+    <string name="mine_custom_width">Width (columns, 5~30)</string>
+    <string name="mine_custom_height">Height (rows, 5~30)</string>
+    <string name="mine_custom_mines">Mines</string>
+    <string name="mine_custom_start">Start</string>
+    <string name="mine_flag_on">Flag: ON</string>
+    <string name="mine_flag_off">Flag: OFF</string>
+    <string name="mine_restart">Restart</string>
+    <string name="mine_new">New Game</string>
+    <string name="mine_win">You win!</string>
+    <string name="mine_lose">Boom!</string>
+
+    <string-array name="unit_types">
+        <item>Length</item>
+        <item>Area</item>
+        <item>Volume</item>
+        <item>Weight</item>
+        <item>Temperature</item>
+    </string-array>
+
+    <string-array name="unit_length">
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>km</item>
+        <item>in</item>
+        <item>ft</item>
+        <item>mi</item>
+    </string-array>
+
+    <string-array name="unit_area">
+        <item>mm²</item>
+        <item>cm²</item>
+        <item>m²</item>
+        <item>km²</item>
+        <item>ha</item>
+        <item>mu</item>
+        <item>ft²</item>
+    </string-array>
+
+    <string-array name="unit_volume">
+        <item>mL</item>
+        <item>L</item>
+        <item>m³</item>
+        <item>gal(US)</item>
+        <item>gal(UK)</item>
+    </string-array>
+
+    <string-array name="unit_weight">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>t</item>
+        <item>lb</item>
+        <item>oz</item>
+    </string-array>
+
+    <string-array name="unit_temp">
+        <item>°C</item>
+        <item>°F</item>
+        <item>K</item>
+    </string-array>
+
+    <string name="account_book_income">Income</string>
+    <string name="account_book_expense">Expense</string>
+    <string name="account_book_balance">Balance</string>
+    <string name="account_book_amount">Amount</string>
+    <string name="account_book_note">Note (optional)</string>
+    <string name="account_book_add_expense">Expense -</string>
+    <string name="account_book_add_income">Income +</string>
+    <string name="account_book_pick_date">Pick Date</string>
+    <string name="account_book_delete_tip">Long press to delete</string>
+    <string name="account_book_default_income">Income</string>
+    <string name="account_book_default_expense">Expense</string>
+</resources>

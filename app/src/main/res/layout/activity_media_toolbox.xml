@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="@string/media_tool_title"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_mt_frame" android:text="@string/media_tool_frame" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_trim" android:text="@string/media_tool_trim" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_extract" android:text="@string/media_tool_extract" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_mt_info" android:text="@string/media_tool_info" style="@style/WhiteBtn"/>
+
+</LinearLayout>

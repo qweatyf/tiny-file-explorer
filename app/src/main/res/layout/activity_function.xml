@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="@string/func_title"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_file"/>
+        <Button android:id="@+id/btn_file" android:text="@string/btn_file" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_file_toolbox" android:text="@string/btn_file_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_apks" android:text="@string/btn_apks" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_network"/>
+        <Button android:id="@+id/btn_server" android:text="@string/btn_server" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_transfer" android:text="@string/btn_transfer" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_links" android:text="@string/btn_links" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_net_toolbox" android:text="@string/btn_net_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_settings" android:text="@string/btn_settings" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_github" android:text="@string/btn_github" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_draw"/>
+        <Button android:id="@+id/btn_real_draw" android:text="@string/btn_real_draw" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_hardcore_draw" android:text="@string/btn_hardcore_draw" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_terminal"/>
+        <Button android:id="@+id/btn_morse_audio" android:text="@string/btn_morse_audio" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_morse_terminal" android:text="@string/btn_morse_terminal" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_real_terminal" android:text="@string/btn_real_terminal" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_tool"/>
+        <Button android:id="@+id/btn_qr" android:text="@string/btn_qr" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_chat" android:text="@string/btn_chat" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_apk_extract" android:text="@string/btn_apk_extract" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_image_toolbox" android:text="@string/btn_image_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_doc_toolbox" android:text="@string/btn_doc_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_media_toolbox" android:text="@string/btn_media_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_crypto_toolbox" android:text="@string/btn_crypto_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_earth3d" android:text="@string/btn_earth3d" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_utility"/>
+        <Button android:id="@+id/btn_unit_convert" android:text="@string/btn_unit_convert" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_color_pick" android:text="@string/btn_color_pick" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_qr_batch" android:text="@string/btn_qr_batch" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_clock" android:text="@string/btn_clock" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_countdown" android:text="@string/btn_countdown" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_stopwatch" android:text="@string/btn_stopwatch" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_countdown_timer" android:text="@string/btn_countdown_timer" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_alarm_clock" android:text="@string/btn_alarm_clock" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_entertainment"/>
+        <Button android:id="@+id/btn_media" android:text="@string/btn_media" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_system"/>
+        <Button android:id="@+id/btn_sys_toolbox" android:text="@string/btn_sys_toolbox" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sysscan" android:text="@string/btn_sysscan" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_backdoor" android:text="@string/btn_backdoor" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_backup" android:text="@string/btn_backup" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sysfile" android:text="@string/btn_sysfile" style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

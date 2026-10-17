@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="@string/title_file_toolbox"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_tool_encrypt" android:text="@string/file_tool_encrypt" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_compress" android:text="@string/file_tool_compress" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_rename" android:text="@string/file_tool_rename" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_search" android:text="@string/file_tool_search" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_compare" android:text="@string/file_tool_compare" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_hash" android:text="@string/file_tool_hash" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_split" android:text="@string/file_tool_split" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_tool_empty" android:text="@string/file_tool_empty" style="@style/WhiteBtn"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/main_pink"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本应用需要用户用 MT 管理器等工具自己签名。\n本应用无法提供签名。"
+        android:textSize="15sp"
+        android:textColor="@color/text"
+        android:gravity="center"
+        android:paddingBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:text="知道了"
+        style="@style/WhiteBtn"/>
+
+</LinearLayout>

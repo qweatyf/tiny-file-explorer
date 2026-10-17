@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小型文件管理器</string>
+    <string name="transfer_key">CHANGE_ME_BEFORE_RELEASE_2024</string>
+
+    <string name="lang_title">语言 / Language</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="lang_tip">切换语言后 App 会自动重启</string>
+    <string name="lang_confirm">切换语言？</string>
+    <string name="lang_ok">确定</string>
+    <string name="lang_cancel">取消</string>
+    <string name="root_tip_title">提示</string>
+    <string name="root_tip_msg">需要 Root 权限，请授权 Root。</string>
+
+    <string name="main_title">小型文件管理器</string>
+    <string name="main_func">功能</string>
+    <string name="main_encrypt">加密</string>
+    <string name="main_game">游戏</string>
+    <string name="main_mine">我的</string>
+
+    <string name="help_title">帮助</string>
+    <string name="help_update">应用更新</string>
+    <string name="help_about">关于应用</string>
+    <string name="help_copyright">版权说明</string>
+    <string name="help_promo">开源说明</string>
+    <string name="help_agreement">用户协议</string>
+    <string name="help_language">语言 / Language</string>
+    <string name="help_update_text">当前版本：2.0\n\n更新内容：\n1. 新增系统工具箱\n2. 新增网络工具箱\n3. 新增加密工具箱\n4. 优化整体体验</string>
+    <string name="help_about_text">小型文件管理器\n\n版本：2.0\n\n文件管理、加密、快传，功能齐全。</string>
+    <string name="help_copyright_text">本项目为开源工具，仅供学习与个人使用。\n\n若相关内容涉及版权问题，请联系处理。</string>
+    <string name="help_promo_text">本项目源码公开，可自由使用与修改。\n\n欢迎提出建议与反馈。</string>
+    <string name="agreement_text">使用前请阅读以下条款：\n\n1. 本项目为开源工具，仅供学习与个人使用。\n2. 禁止将本项目用于任何违法违规用途。\n3. 部分功能涉及系统权限，请自行承担使用风险。\n4. 本项目不收集、不上传任何用户数据。\n5. 使用本项目即表示你已阅读并同意以上条款。\n\n点击"同意"代表你已阅读并接受。</string>
+
+    <string name="server_channel_name">本地服务器</string>
+    <string name="server_running">本地服务器运行中</string>
+    <string name="server_running_hint">点一下回应用</string>
+
+    <string name="chat_pass_too_short">密码至少 6 位</string>
+    <string name="chat_join_fail">连不上房主</string>
+    <string name="chat_bad_pass">密码不对</string>
+    <string name="chat_muted">你被禁言了</string>
+    <string name="chat_host_lost">房主掉线了</string>
+    <string name="chat_kicked">你被请出房间</string>
+    <string name="chat_image">图片</string>
+    <string name="chat_file">文件</string>
+    <string name="chat_mute">禁言</string>
+    <string name="chat_unmute">解除禁言</string>
+    <string name="chat_kick">请出房间</string>
+    <string name="chat_kick_confirm">确定请出？</string>
+    <string name="chat_sys_muted">【系统】%1$s 被禁言</string>
+    <string name="chat_sys_unmuted">【系统】%1$s 解除禁言</string>
+    <string name="chat_sys_kicked">【系统】%1$s 被请出房间</string>
+    <string name="chat_sys_bad_pass">【安全】%1$s 想进房，口令错了</string>
+    <string name="chat_service_running">聊天服务跑着</string>
+    <string name="chat_channel_name">聊天服务</string>
+    <string name="chat_remote_mode">服务器模式</string>
+    <string name="chat_local_mode">本地模式</string>
+    <string name="chat_remote_need_login">请先到「服务器设置」里连接服务器</string>
+
+    <string name="alarm_default_label">时间到</string>
+    <string name="alarm_channel_name">闹钟</string>
+    <string name="alarm_type_title">重复方式</string>
+    <string name="alarm_type_once">单次</string>
+    <string name="alarm_type_daily">每天</string>
+    <string name="alarm_type_weekly">每周</string>
+    <string name="alarm_need_week">至少选一天</string>
+    <string name="alarm_pick_music">选音乐</string>
+    <string name="alarm_music_saved">音乐已保存</string>
+    <string name="alarm_list_title">已设置的闹钟</string>
+    <string name="alarm_delete_title">删除闹钟</string>
+    <string name="week_mon">周一</string>
+    <string name="week_tue">周二</string>
+    <string name="week_wed">周三</string>
+    <string name="week_thu">周四</string>
+    <string name="week_fri">周五</string>
+    <string name="week_sat">周六</string>
+    <string name="week_sun">周日</string>
+    <string name="week_mon_short">一</string>
+    <string name="week_tue_short">二</string>
+    <string name="week_wed_short">三</string>
+    <string name="week_thu_short">四</string>
+    <string name="week_fri_short">五</string>
+    <string name="week_sat_short">六</string>
+    <string name="week_sun_short">日</string>
+
+    <string name="battery_charging">充电中</string>
+    <string name="battery_full">已满</string>
+    <string name="battery_discharging">放电中</string>
+    <string name="battery_unknown">未知</string>
+
+    <string name="app_freeze">冻结</string>
+    <string name="app_unfreeze">解冻</string>
+    <string name="app_clean_cache">清缓存</string>
+    <string name="app_clean_data">清数据</string>
+    <string name="app_clean_confirm">确定清理？</string>
+
+    <string name="send_no_ip">请先填 IP</string>
+    <string name="send_progress">%1$d%%</string>
+    <string name="send_remote_mode">走服务器</string>
+
+    <string name="settings_saved">设置已保存</string>
+    <string name="settings_cleared">已清空，切回本地模式</string>
+    <string name="settings_no_url">请填服务器地址</string>
+    <string name="settings_testing">测试中...</string>
+    <string name="settings_connected">已连接</string>
+    <string name="settings_not_connected">未连接</string>
+    <string name="settings_fail">连接失败</string>
+
+    <string name="server_started">服务已启动</string>
+    <string name="server_stopped">服务已停止</string>
+    <string name="server_start">启动服务</string>
+    <string name="server_stop">停止服务</string>
+    <string name="server_not_running">服务器没启动</string>
+
+    <string name="receive_empty">还没收到文件</string>
+    <string name="receive_open_fail">打不开这个文件</string>
+
+    <string name="transfer_need_server">先启动本地服务器</string>
+
+    <string name="qr_perm_denied">没相机权限</string>
+    <string name="qr_not_link">这不是链接</string>
+    <string name="qr_pay_warn">这看起来像付款链接，确定打开？</string>
+    <string name="qr_open">打开</string>
+
+    <string name="gif_pick_images">选图片</string>
+    <string name="gif_pick_video">选视频</string>
+    <string name="gif_start">开始</string>
+    <string name="gif_end">结束</string>
+    <string name="gif_fps">帧率</string>
+    <string name="gif_delay_hint">每帧延时(ms)</string>
+    <string name="gif_full">全部</string>
+    <string name="gif_custom_range">指定范围</string>
+
+    <string name="search_copy_path">复制路径</string>
+    <string name="search_copy_name">复制文件名</string>
+
+    <string name="split_merge_title">合并切分文件</string>
+    <string name="split_merge_hint">输入切分文件所在目录</string>
+
+    <string name="empty_scanning">扫描中</string>
+
+    <string name="terminal_session">切换会话</string>
+    <string name="terminal_session_msg">终端会在同一会话里继续</string>
+    <string name="terminal_font">字体</string>
+
+    <string name="apk_extract_do">提取 APK</string>
+    <string name="apk_info">应用信息</string>
+    <string name="apk_sys">系统应用</string>
+    <string name="apk_user">用户应用</string>
+
+    <string name="shell_bye">再见</string>
+    <string name="shell_builtin">内置命令: %1$s</string>
+    <string name="shell_not_found">找不到命令: %1$s</string>
+    <string name="shell_help_hint2">输入 help 查看所有命令</string>
+    <string name="shell_slept">已等待 %1$d ms</string>
+
+    <string name="server_ok">ok</string>
+    <string name="server_empty">空的？</string>
+    <string name="server_hash_fail">hash 对不上</string>
+    <string name="server_crash">炸了：%1$s</string>
+    <string name="server_html_title">服务器跑起来了</string>
+    <string name="server_html_hint">收文件走 /upload</string>
+
+    <string name="hardcore_err">只能输 0 或 1</string>
+    <string name="hardcore_grid">网格</string>
+    <string name="hardcore_table">色表</string>
+    <string name="hardcore_preview">预览</string>
+    <string name="hardcore_generate">生成</string>
+
+    <string name="real_draw_on">ON</string>
+    <string name="real_draw_off">OFF</string>
+
+    <string name="backup_skip_userdata">跳过 userdata</string>
+    <string name="backup_skip_nospace">跳过 %1$s（空间不够）</string>
+    <string name="backup_ok">成功 %1$s</string>
+    <string name="backup_fail">失败 %1$s - %2$s</string>
+    <string name="backup_no_root">没有 Root</string>
+
+    <string name="backdoor_scanning">扫描中...</string>
+    <string name="backdoor_done">完事</string>
+    <string name="backdoor_ok">安全</string>
+    <string name="backdoor_suspect">可疑: %1$s\n匹配: %2$s</string>
+    <string name="backdoor_warn">发现 %1$d 个可疑</string>
+
+    <string name="zip_dir_suffix">_解压</string>
+
+    <string name="unspecified">-</string>
+
+    <string name="sysscan_manufacturer">厂商</string>
+    <string name="sysscan_model">型号</string>
+    <string name="sysscan_version">Android 版本</string>
+    <string name="sysscan_bootloader">Bootloader</string>
+    <string name="sysscan_root">已 Root</string>
+    <string name="sysscan_colon">：</string>
+
+    <string name="media_play">播放</string>
+    <string name="media_pause">暂停</string>
+    <string name="media_no_lyric">没找到歌词（同名 .lrc 文件）</string>
+    <string name="audio_decode_fail">识别失败，音频里可能有杂声</string>
+    <string name="audio_decode_unclear">可能识别不准</string>
+    <string name="audio_decode_error">识别失败：%1$s</string>
+
+    <string name="monitor_cpu_title">CPU 使用率</string>
+    <string name="monitor_battery_title">电池电量</string>
+    <string name="monitor_cores">核心数</string>
+    <string name="monitor_temp">温度</string>
+    <string name="monitor_current">电流</string>
+    <string name="monitor_voltage">电压</string>
+    <string name="monitor_no_data">没有应用数据</string>
+    <string name="monitor_need_root">需要 Root 才能看每个应用</string>
+    <string name="monitor_unsupported">你的设备不支持 3D 视图</string>
+    <string name="monitor_unsupported_hint">可能是设备太老、不支持 WebGL，或系统 WebView 版本过低。升级 Android System WebView 后重试。</string>
+    <string name="monitor_avg">平均值</string>
+
+    <string name="battery_health_title">电池健康</string>
+    <string name="battery_health_estimate">健康度估算</string>
+    <string name="battery_health_design">设计容量（mAh）</string>
+    <string name="battery_health_current">当前满充容量（mAh）</string>
+    <string name="battery_health_save">保存</string>
+    <string name="battery_health_design_hint">设备读不到设计容量，可以自己填</string>
+    <string name="battery_health_current_hint">设备读不到当前容量，可以自己填</string>
+    <string name="battery_health_auto_hint">已自动读取：%1$d mAh</string>
+    <string name="battery_health_saved">已保存</string>
+    <string name="battery_health_value">%1$d%%</string>
+
+    <string name="cpu_detail_title">应用详情</string>
+    <string name="cpu_detail_cpu">CPU 占用</string>
+    <string name="cpu_detail_mem">内存占用</string>
+    <string name="cpu_detail_history">历史曲线</string>
+
+    <string name="github_title">上传到 GitHub</string>
+    <string name="github_token_hint">GitHub Token</string>
+    <string name="github_check">检测 Token</string>
+    <string name="github_clear">清空 Token</string>
+    <string name="github_owner_hint">GitHub 用户名（owner）</string>
+    <string name="github_repo_hint">仓库名（repo）</string>
+    <string name="github_branch_hint">分支名（默认 main）</string>
+    <string name="github_msg_hint">commit 信息</string>
+    <string name="github_dir_hint">本地目录路径</string>
+    <string name="github_exclude_hint">屏蔽文件（逗号或换行分隔，支持 *）</string>
+    <string name="github_pick_dir">选目录</string>
+    <string name="github_upload">上传</string>
+    <string name="github_no_dir">未选目录</string>
+    <string name="github_token_saved">已保存 Token</string>
+    <string name="github_token_empty">请先填 Token</string>
+    <string name="github_token_ok">Token 有效，用户：%1$s</string>
+    <string name="github_token_fail">Token 无效：%1$s</string>
+    <string name="github_checking">检测中...</string>
+    <string name="github_cleared">已清空</string>
+    <string name="github_need_input">Token / 用户 / 仓库 / 目录 不能为空</string>
+    <string name="github_dir_fail">目录不存在</string>
+    <string name="github_upload_done">上传成功：</string>
+    <string name="github_upload_fail">上传失败：</string>
+
+    <string name="earth_title">3D 地球</string>
+    <string name="earth_lat">纬度</string>
+    <string name="earth_lon">经度</string>
+    <string name="earth_zoom">缩放</string>
+    <string name="earth_hint">单指拖动旋转，双指捏合缩放</string>
+    <string name="earth_btn_lat">纬线</string>
+    <string name="earth_btn_lon">经线</string>
+    <string name="earth_btn_mag">磁场</string>
+    <string name="func_title">功能</string>
+    <string name="group_file">文件</string>
+    <string name="group_network">网络</string>
+    <string name="group_draw">画画</string>
+    <string name="group_terminal">终端</string>
+    <string name="group_tool">工具</string>
+    <string name="group_utility">实用工具</string>
+    <string name="group_entertainment">娱乐</string>
+    <string name="group_system">系统</string>
+    <string name="group_monitor">监控</string>
+    <string name="group_app">应用</string>
+    <string name="group_root">Root 专属</string>
+
+    <string name="btn_file">文件管理</string>
+    <string name="btn_file_toolbox">文件工具箱</string>
+    <string name="btn_apks">APKS 合成</string>
+    <string name="btn_server">本地服务器</string>
+    <string name="btn_transfer">快传</string>
+    <string name="btn_links">链接导航页</string>
+    <string name="btn_net_toolbox">网络工具箱</string>
+    <string name="btn_settings">服务器设置</string>
+    <string name="btn_github">上传到 GitHub</string>
+    <string name="btn_real_draw">真正画画</string>
+    <string name="btn_hardcore_draw">硬核画画</string>
+    <string name="btn_morse_audio">摩斯电码音频生成</string>
+    <string name="btn_morse_terminal">摩斯电码终端</string>
+    <string name="btn_real_terminal">真终端</string>
+    <string name="btn_qr">二维码</string>
+    <string name="btn_chat">本地聊天</string>
+    <string name="btn_apk_extract">APK 提取</string>
+    <string name="btn_image_toolbox">图片工具箱</string>
+    <string name="btn_doc_toolbox">文档工具箱</string>
+    <string name="btn_media_toolbox">音视频工具箱</string>
+    <string name="btn_crypto_toolbox">加密工具箱</string>
+    <string name="btn_earth3d">3D 地球</string>
+    <string name="btn_unit_convert">单位换算</string>
+    <string name="btn_color_pick">颜色选择器</string>
+    <string name="btn_qr_batch">二维码批量生成</string>
+    <string name="btn_clock">钟表</string>
+    <string name="btn_countdown">倒数日</string>
+    <string name="btn_stopwatch">秒表</string>
+    <string name="btn_countdown_timer">倒计时</string>
+    <string name="btn_alarm_clock">定时闹钟</string>
+    <string name="btn_media">音视频播放</string>
+    <string name="btn_sys_toolbox">系统工具箱</string>
+    <string name="btn_sysscan">系统扫描</string>
+    <string name="btn_backdoor">后门扫描</string>
+    <string name="btn_backup">分区备份</string>
+    <string name="btn_sysfile">系统文件修改</string>
+
+    <string name="mine_title">我的</string>
+    <string name="btn_user">个人资料</string>
+    <string name="btn_account">账户信息</string>
+    <string name="btn_memo">备忘录</string>
+    <string name="btn_vault">保险箱</string>
+    <string name="btn_mine_account_book">记账本</string>
+    <string name="btn_logout">注销账号</string>
+    <string name="logout_title">注销账号</string>
+    <string name="logout_msg">真要注销？注销完得重新输卡密。</string>
+    <string name="logout_confirm">确定</string>
+    <string name="logout_cancel">算了</string>
+    <string name="logout_done">注销了</string>
+
+    <string name="game_title">游戏</string>
+    <string name="btn_mine">扫雷</string>
+
+    <string name="enc_title">加密</string>
+    <string name="btn_bin">文本/二进制翻译</string>
+    <string name="btn_base64">BASE64 加密/解密</string>
+    <string name="btn_morse">摩斯电码加密/解密</string>
+    <string name="btn_seven">七层加密/解密</string>
+    <string name="btn_pinyin">中文转拼音</string>
+
+    <string name="title_main">小型文件管理器</string>
+    <string name="title_func">功能</string>
+    <string name="title_encrypt">加密</string>
+    <string name="title_mine">我的</string>
+    <string name="title_help">帮助</string>
+    <string name="title_language">语言</string>
+    <string name="title_user">个人资料</string>
+    <string name="title_account">账户信息</string>
+    <string name="title_memo">备忘录</string>
+    <string name="title_vault">保险箱</string>
+    <string name="title_game">游戏</string>
+    <string name="title_file">文件管理</string>
+    <string name="title_zip">解压</string>
+    <string name="title_editor">编辑器</string>
+    <string name="title_file_toolbox">文件工具箱</string>
+    <string name="title_file_encrypt">文件加密</string>
+    <string name="title_file_compress">压缩解压</string>
+    <string name="title_batch_rename">批量重命名</string>
+    <string name="title_file_search">文件搜索</string>
+    <string name="title_file_compare">文件对比</string>
+    <string name="title_file_hash">哈希校验</string>
+    <string name="title_file_split">文件切分</string>
+    <string name="title_empty_dir">空目录清理</string>
+    <string name="title_apks">APKS 合成</string>
+    <string name="title_apk_extract">APK 提取</string>
+    <string name="title_image_toolbox">图片工具箱</string>
+    <string name="title_image_compress">图片压缩</string>
+    <string name="title_image_format">图片转格式</string>
+    <string name="title_image_watermark">加水印</string>
+    <string name="title_image_color">图片取色</string>
+    <string name="title_gif_make">合成 GIF</string>
+    <string name="title_gif_decoder">GIF 拆帧</string>
+    <string name="title_image_view">看图</string>
+    <string name="title_media">音视频播放</string>
+    <string name="title_media_toolbox">音视频工具箱</string>
+    <string name="title_video_frame">视频抽帧</string>
+    <string name="title_audio_trim">音频裁剪</string>
+    <string name="title_video_to_audio">视频转音频</string>
+    <string name="title_audio_info">音频信息</string>
+    <string name="title_morse_audio">摩斯电码音频</string>
+    <string name="title_morse_terminal">摩斯电码终端</string>
+    <string name="title_real_terminal">真终端</string>
+    <string name="title_doc_toolbox">文档工具箱</string>
+    <string name="title_markdown_view">Markdown 预览</string>
+    <string name="title_csv_view">CSV 查看</string>
+    <string name="title_text_encoding">文本编码</string>
+    <string name="title_pdf_merge">PDF 合并</string>
+    <string name="title_crypto">加密工具</string>
+    <string name="title_bin">文本二进制</string>
+    <string name="title_server">本地服务器</string>
+    <string name="title_transfer">快传</string>
+    <string name="title_send">发送文件</string>
+    <string name="title_receive">接收文件</string>
+    <string name="title_links">链接导航</string>
+    <string name="title_sys_scan">系统扫描</string>
+    <string name="title_sys_file">系统文件</string>
+    <string name="title_mem_info">内存信息</string>
+    <string name="title_useless">无用进程</string>
+    <string name="title_backdoor">后门扫描</string>
+    <string name="title_backup">分区备份</string>
+    <string name="title_system_toolbox">系统工具箱</string>
+    <string name="title_cpu_monitor">CPU 监控</string>
+    <string name="title_mem_monitor">内存监控</string>
+    <string name="title_battery_monitor">电池监控</string>
+    <string name="title_net_monitor">网络流量</string>
+    <string name="title_storage_analysis">存储分析</string>
+    <string name="title_app_detail">应用详情</string>
+    <string name="title_app_uninstall">应用卸载</string>
+    <string name="title_app_freeze">应用冻结</string>
+    <string name="title_app_clean">应用清理</string>
+    <string name="title_app_auto_start">自启管理</string>
+    <string name="title_net_toolbox">网络工具箱</string>
+    <string name="title_http_request">HTTP 请求</string>
+    <string name="title_lan_scan">局域网扫描</string>
+    <string name="title_port_scan">端口扫描</string>
+    <string name="title_speed_test">网速测试</string>
+    <string name="title_crypto_toolbox">加密工具箱</string>
+    <string name="title_aes_tool">AES 加解密</string>
+    <string name="title_hash_tool">哈希计算器</string>
+    <string name="title_password_gen">密码生成</string>
+    <string name="title_unit_convert">单位换算</string>
+    <string name="title_color_pick">颜色选择器</string>
+    <string name="title_qr_batch">二维码批量</string>
+    <string name="title_clock">钟表</string>
+    <string name="title_countdown">倒数日</string>
+    <string name="title_account_book">记账本</string>
+    <string name="title_stopwatch">秒表</string>
+    <string name="title_countdown_timer">倒计时</string>
+    <string name="title_alarm_clock">定时闹钟</string>
+    <string name="title_alarm_ring">闹钟响铃</string>
+    <string name="title_real_draw">真正画画</string>
+    <string name="title_hardcore_draw">硬核画画</string>
+    <string name="title_qr">二维码</string>
+    <string name="title_qr_gen">生成二维码</string>
+    <string name="title_qr_scan">读取二维码</string>
+    <string name="title_chat">本地聊天</string>
+    <string name="title_settings">服务器设置</string>
+    <string name="title_mine_game">扫雷</string>
+    <string name="title_github">上传到 GitHub</string>
+
+    <string name="file_enc_title">文件加密/解密</string>
+    <string name="file_enc_pick">选文件</string>
+    <string name="file_enc_none">未选文件</string>
+    <string name="file_enc_pass_hint">输密码</string>
+    <string name="file_enc_do">加密</string>
+    <string name="file_enc_dec">解密</string>
+    <string name="file_enc_tip">加密文件存到 Download/加密文件/\n解密文件存到 Download/解密文件/</string>
+
+    <string name="file_empty">这目录读不了，或者空的</string>
+    <string name="file_empty_hint">可以在上面输入路径直接进入</string>
+    <string name="file_dir">[目录] </string>
+    <string name="file_doc">[文件] </string>
+    <string name="file_path_hint">路径</string>
+    <string name="file_up">⬆</string>
+    <string name="file_exit_tip1">再滑两次退出应用</string>
+    <string name="file_exit_tip2">再滑一次退出应用</string>
+    <string name="file_cancel">取消</string>
+    <string name="file_confirm">就这</string>
+    <string name="file_menu_rename">重命名</string>
+    <string name="file_menu_delete">删除</string>
+    <string name="file_menu_copy">复制到...</string>
+    <string name="file_menu_move">移动到...</string>
+    <string name="file_rename_title">重命名</string>
+    <string name="file_rename_ok">确定</string>
+    <string name="file_rename_cancel">算了</string>
+    <string name="file_rename_occupied">名字被占了</string>
+    <string name="file_rename_fail">改不了</string>
+    <string name="file_del_title">删除</string>
+    <string name="file_del_msg">删除文件后，原文件不可复原，请谨慎删除。</string>
+    <string name="file_del_ok">删</string>
+    <string name="file_del_cancel">算了</string>
+    <string name="file_del_done">删了</string>
+    <string name="file_del_fail">删不掉</string>
+    <string name="file_conflict_title">同名文件</string>
+    <string name="file_conflict_msg">目标目录已有同名文件</string>
+    <string name="file_conflict_skip">跳过</string>
+    <string name="file_conflict_both">保留两者</string>
+    <string name="file_conflict_replace">替换</string>
+    <string name="file_done">搞定了</string>
+    <string name="file_fail">失败了：</string>
+    <string name="file_path_not_exist">路径不存在</string>
+    <string name="file_pick_dir">选目录，别点文件</string>
+    <string name="file_over_size">超过 20MB 了，看不了</string>
+    <string name="file_not_text">这不是文本文件，看不了</string>
+    <string name="file_sys_load_fail">系统文件读取失败</string>
+    <string name="file_menu_compare_title">对比结果</string>
+    <string name="file_search">搜索中</string>
+
+    <string name="zip_open_fail">打不开：</string>
+    <string name="zip_options_view">看看里面</string>
+    <string name="zip_options_unzip">解压</string>
+    <string name="zip_options_cancel">算了</string>
+    <string name="zip_path_prefix">压缩包内：</string>
+    <string name="zip_read_fail">读不了：</string>
+    <string name="zip_unzip_to">解压到：</string>
+    <string name="zip_unzip_fail">解压失败：</string>
+
+    <string name="editor_untitled">未命名</string>
+    <string name="editor_save">保存</string>
+    <string name="editor_read_fail">读不了：</string>
+    <string name="editor_saved">另存成了：</string>
+    <string name="editor_save_fail">保存失败：</string>
+
+    <string name="user_title">个人资料</string>
+    <string name="user_default_name">用户</string>
+    <string name="user_rename">改名字</string>
+    <string name="user_del_avatar">删掉当前头像</string>
+    <string name="user_tip">点头像可以换图、删图</string>
+    <string name="user_rename_title">改名字</string>
+    <string name="user_rename_hint">请输入新名字</string>
+    <string name="user_rename_ok">改</string>
+    <string name="user_rename_cancel">算了</string>
+    <string name="user_rename_done">改好了</string>
+    <string name="user_avatar_title">头像</string>
+    <string name="user_avatar_from_album">从相册选</string>
+    <string name="user_avatar_camera">拍照</string>
+    <string name="user_avatar_delete">删掉头像</string>
+    <string name="user_avatar_no_camera">拍照暂不支持</string>
+    <string name="user_avatar_no_avatar">还没设头像呢</string>
+    <string name="user_avatar_del_confirm">确定删掉当前头像吗？</string>
+    <string name="user_avatar_del_ok">删</string>
+    <string name="user_avatar_del_cancel">算了</string>
+    <string name="user_avatar_del_done">删了</string>
+    <string name="user_avatar_done">换好了</string>
+    <string name="user_avatar_fail">换不了，换张图试试</string>
+
+    <string name="acc_title">账户信息</string>
+    <string name="acc_user">用户名：</string>
+    <string name="acc_hash">卡密哈希：</string>
+    <string name="acc_time">创建时间：</string>
+    <string name="acc_unknown">未知</string>
+
+    <string name="memo_title">备忘录</string>
+    <string name="memo_hint">写点啥...</string>
+    <string name="memo_save">保存</string>
+    <string name="memo_saved">存本地了</string>
+    <string name="memo_save_fail">保存失败：</string>
+
+    <string name="vault_title">保险箱</string>
+    <string name="vault_pass_hint">请输入保险箱密码</string>
+    <string name="vault_unlock">解锁</string>
+    <string name="vault_save">保存</string>
+    <string name="vault_new">新保险箱，密码记住了，写点东西点保存</string>
+    <string name="vault_unlocked">解锁成功</string>
+    <string name="vault_wrong_pass">密码不对吧</string>
+    <string name="vault_unlock_first">先解锁啊兄弟</string>
+    <string name="vault_saved">加密保存好了</string>
+    <string name="vault_save_fail">保存失败：</string>
+
+    <string name="img_tool_title">图片工具箱</string>
+    <string name="img_tool_compress">图片压缩</string>
+    <string name="img_tool_format">图片转格式</string>
+    <string name="img_tool_watermark">图片加水印</string>
+    <string name="img_tool_color">图片取色</string>
+    <string name="img_tool_gif_make">合成 GIF</string>
+    <string name="img_tool_gif_decode">GIF 拆帧</string>
+
+    <string name="media_tool_title">音视频工具箱</string>
+    <string name="media_tool_frame">视频抽帧</string>
+    <string name="media_tool_trim">音频裁剪（WAV）</string>
+    <string name="media_tool_extract">视频转音频</string>
+    <string name="media_tool_info">音频信息查看</string>
+
+    <string name="file_tool_encrypt">文件加密/解密</string>
+    <string name="file_tool_compress">压缩/解压</string>
+    <string name="file_tool_rename">批量重命名</string>
+    <string name="file_tool_search">文件搜索</string>
+    <string name="file_tool_compare">文件对比</string>
+    <string name="file_tool_hash">哈希校验</string>
+    <string name="file_tool_split">切分/合并</string>
+    <string name="file_tool_empty">空目录清理</string>
+
+    <string name="doc_md">Markdown 预览</string>
+    <string name="doc_csv">CSV 查看</string>
+    <string name="doc_enc">文本编码转换</string>
+    <string name="doc_pdf">PDF 合并</string>
+
+    <string name="sys_cpu">CPU 实时监控</string>
+    <string name="sys_mem">内存实时监控</string>
+    <string name="sys_battery">电池实时监控</string>
+    <string name="sys_net">网络流量监控</string>
+    <string name="sys_storage">存储分析</string>
+    <string name="sys_app_detail">应用详情</string>
+    <string name="sys_app_uninstall">应用卸载</string>
+    <string name="sys_app_freeze">应用冻结</string>
+    <string name="sys_app_clean">应用清理</string>
+    <string name="sys_app_autostart">自启管理</string>
+
+    <string name="net_http">HTTP 请求</string>
+    <string name="net_lan">局域网扫描</string>
+    <string name="net_port">端口扫描</string>
+    <string name="net_speed">网速测试</string>
+
+    <string name="crypto_aes">AES 加解密</string>
+    <string name="crypto_hash">哈希计算器</string>
+    <string name="crypto_pass">随机密码生成</string>
+
+    <string name="doc_title_md">Markdown 预览</string>
+    <string name="doc_title_csv">CSV 查看</string>
+    <string name="doc_title_enc">文本编码</string>
+    <string name="doc_title_pdf">PDF 合并</string>
+
+    <string name="term_welcome">欢迎使用摩斯电码终端</string>
+    <string name="term_cmds">可用命令：</string>
+    <string name="term_cmd_clear">clear    - 清屏</string>
+    <string name="term_cmd_open">open     - 选音频文件</string>
+    <string name="term_cmd_decode">decode   - 开始破译</string>
+    <string name="term_cmd_list">list     - 查看保存记录</string>
+    <string name="term_cmd_clean">clean    - 清理全部</string>
+    <string name="term_cmd_clean_log">clean log    - 只清日志</string>
+    <string name="term_cmd_clean_audio">clean audio  - 只清缓存音频</string>
+    <string name="term_cmd_clean_result">clean result - 只清破译结果</string>
+    <string name="term_cmd_history">history  - 查看历史</string>
+    <string name="term_cmd_exit">exit     - 退出</string>
+    <string name="term_tip">点屏幕就能输，长按文字可复制</string>
+    <string name="term_swipe_exit">滑三次退出</string>
+    <string name="term_cache_big">检测到你缓存较多</string>
+    <string name="term_cache_clear">是否清除？清除请输入 clean</string>
+    <string name="term_input_title">输入</string>
+    <string name="term_input_hint">输入中文、英文或摩斯</string>
+    <string name="term_unknown">不认识的输入</string>
+    <string name="term_morse_label">摩斯：</string>
+    <string name="term_text_label">文字：</string>
+    <string name="term_saved_to">保存到：</string>
+    <string name="term_done">完成</string>
+    <string name="term_time">耗时：</string>
+    <string name="term_seconds">秒</string>
+    <string name="term_no_result">还没结果</string>
+    <string name="term_result_prefix">[结果] </string>
+    <string name="term_exit_title">确定退出？</string>
+    <string name="term_exit_msg">退出后会终止所有后台进程，防止手机卡顿。</string>
+    <string name="term_read_file">读取文件...</string>
+    <string name="term_analyze">分析音频...</string>
+    <string name="term_detected">检测到摩斯：</string>
+    <string name="term_note">注意：</string>
+    <string name="term_translating">翻译中...</string>
+    <string name="term_pinyin">拼音：</string>
+    <string name="term_same_sound">同音字：</string>
+    <string name="term_no_file">还没选文件，先用 open</string>
+    <string name="term_already_decoding">已经在破译了</string>
+    <string name="term_no_file_loaded">没加载文件，先用 open</string>
+    <string name="term_interrupted">进程已中断</string>
+    <string name="term_file_loaded">已加载：</string>
+    <string name="term_clean_done">清理完成</string>
+    <string name="term_log_cleared">日志已清</string>
+    <string name="term_audio_cleared">音频缓存已清</string>
+    <string name="term_result_cleared">破译结果已清</string>
+
+    <string name="shell_help_title">命令分类：file / text / network / system / tool / extra / clean / chat / mirror</string>
+    <string name="shell_help_hint">输 help all 看全部，help 分类 看单个分类</string>
+    <string name="shell_file">文件: ls cd pwd cat head tail mkdir rm cp mv touch find du df stat tree file ln diff split truncate basename dirname</string>
+    <string name="shell_file_new">新增: lsort lstat crc time xargs</string>
+    <string name="shell_text">文本: grep wc sort uniq cut tr sed awk base64 sha256sum md5sum xxd hexdump rev tac</string>
+    <string name="shell_text_new">新增: join paste nl column fmt splitlines</string>
+    <string name="shell_network_dl">下载: wget download fetch curl http headers httpcode httptime redir speedtest stopdl</string>
+    <string name="shell_network_dns">DNS: dns dnsq mx txt ns whois</string>
+    <string name="shell_network_ip">IP: ip iplocal myip4 myip6 ipinfo gateway mac netinfo</string>
+    <string name="shell_network_conn">连通: ping portcheck checkonline trace netstat</string>
+    <string name="shell_network_other">其它: url imginfo gh-mirror</string>
+    <string name="shell_system">系统: ps uname whoami id env battery cpu mem disk net app uptime hostname locale export</string>
+    <string name="shell_system_new">新增: top sysinfo sensors ipaddr cal dateu uptimep hostinfo</string>
+    <string name="shell_tool">工具: clear help history exit sleep true false which alias set unset export source calc unit rand uuid pass json timestamp zip unzip timer count sum avg min max open share copy toast vibrate</string>
+    <string name="shell_extra">扩展: enc dec qrenc qrdec myip portscan repeat after at</string>
+    <string name="shell_clean">清理: cleandata [-y]</string>
+    <string name="shell_chat">聊天: chatclear [-y]</string>
+    <string name="shell_mirror">镜像: gh-mirror [on|off|list|use n|set url|reset]</string>
+    <string name="shell_unknown">不认识的分类: </string>
+
+    <string name="shell_all_file">【文件】</string>
+    <string name="shell_all_text">【文本】</string>
+    <string name="shell_all_net_dl">【网络-下载】</string>
+    <string name="shell_all_net_dns">【网络-DNS】</string>
+    <string name="shell_all_net_ip">【网络-IP】</string>
+    <string name="shell_all_net_conn">【网络-连通】</string>
+    <string name="shell_all_net_other">【网络-工具】</string>
+    <string name="shell_all_sys">【系统】</string>
+    <string name="shell_all_tool">【工具】</string>
+    <string name="shell_all_extra">【扩展】</string>
+    <string name="shell_all_clean">【清理】</string>
+    <string name="shell_all_chat">【聊天】</string>
+    <string name="shell_all_base">基础: </string>
+    <string name="shell_all_new">新增: </string>
+
+    <string name="settings_title">服务器设置</string>
+    <string name="settings_server_hint">服务器地址（留空 = 本地模式）</string>
+    <string name="settings_server_url_hint">http://example.com:8080</string>
+    <string name="settings_token_hint">Token（可选，填了会带上 Authorization 头）</string>
+    <string name="settings_token_empty">留空就不带</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_test">测试连接</string>
+    <string name="settings_clear">清空（切回本地模式）</string>
+    <string name="settings_result_hint">测试结果会显示在这里</string>
+    <string name="settings_tip">本地模式 = 现在的局域网直连\n服务器模式 = 所有联网功能走你填的地址</string>
+
+    <string name="real_draw_brush">调色</string>
+    <string name="real_draw_pick_brush">笔</string>
+    <string name="real_draw_eraser">橡皮</string>
+    <string name="real_draw_clear">清空</string>
+    <string name="real_draw_import">导入图片</string>
+    <string name="real_draw_save">保存</string>
+
+    <string name="morse_gen_wav">生成 .wav</string>
+
+    <string name="color_pick_select">选颜色</string>
+    <string name="color_pick_copy">复制色值</string>
+
+    <string name="countdown_pick_date">选日期</string>
+    <string name="countdown_add">添加</string>
+    <string name="countdown_delete_tip">长按删除</string>
+    <string name="countdown_no_date">未选日期</string>
+    <string name="countdown_days_left">还有 %1$d 天</string>
+    <string name="countdown_days_passed">已经过了 %1$d 天</string>
+    <string name="countdown_today">就是今天</string>
+
+    <string name="alarm_pick_ring">选铃声</string>
+    <string name="alarm_default_ring">默认铃声</string>
+    <string name="alarm_set">设定闹钟</string>
+    <string name="alarm_label_hint">闹钟名字，如 起床</string>
+    <string name="alarm_tip">点上面的大数字改时间\n到点会响铃+通知，后台也生效</string>
+    <string name="alarm_restore_default">已恢复系统默认铃声</string>
+    <string name="alarm_grant_exact">授权精确闹钟</string>
+    <string name="alarm_set_fmt">已设定 %1$02d:%2$02d 的闹钟\n\n到点会响铃+通知，后台也生效。</string>
+
+    <string name="stopwatch_start">开始</string>
+    <string name="stopwatch_pause">暂停</string>
+    <string name="stopwatch_continue">继续</string>
+    <string name="stopwatch_lap_format">第 %1$d 次  %2$s  (+%3$s)</string>
+
+    <string name="mine_custom_title">自定义扫雷</string>
+    <string name="mine_custom_width">宽（列数，5~30）</string>
+    <string name="mine_custom_height">高（行数，5~30）</string>
+    <string name="mine_custom_mines">雷数</string>
+    <string name="mine_custom_start">开始</string>
+    <string name="mine_flag_on">插旗：开</string>
+    <string name="mine_flag_off">插旗：关</string>
+    <string name="mine_restart">重开</string>
+    <string name="mine_new">新局</string>
+    <string name="mine_win">赢啦！</string>
+    <string name="mine_lose">踩雷了</string>
+
+    <string-array name="unit_types">
+        <item>长度</item>
+        <item>面积</item>
+        <item>体积</item>
+        <item>重量</item>
+        <item>温度</item>
+    </string-array>
+
+    <string-array name="unit_length">
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>km</item>
+        <item>英寸</item>
+        <item>英尺</item>
+        <item>英里</item>
+    </string-array>
+
+    <string-array name="unit_area">
+        <item>mm²</item>
+        <item>cm²</item>
+        <item>m²</item>
+        <item>km²</item>
+        <item>公顷</item>
+        <item>亩</item>
+        <item>平方英尺</item>
+    </string-array>
+
+    <string-array name="unit_volume">
+        <item>mL</item>
+        <item>L</item>
+        <item>m³</item>
+        <item>加仑(US)</item>
+        <item>加仑(UK)</item>
+    </string-array>
+
+    <string-array name="unit_weight">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>吨</item>
+        <item>磅</item>
+        <item>盎司</item>
+    </string-array>
+
+    <string-array name="unit_temp">
+        <item>°C</item>
+        <item>°F</item>
+        <item>K</item>
+    </string-array>
+
+    <string name="account_book_income">收入</string>
+    <string name="account_book_expense">支出</string>
+    <string name="account_book_balance">结余</string>
+    <string name="account_book_amount">金额</string>
+    <string name="account_book_note">备注（可选）</string>
+    <string name="account_book_add_expense">支出 -</string>
+    <string name="account_book_add_income">收入 +</string>
+    <string name="account_book_pick_date">选日期</string>
+    <string name="account_book_delete_tip">长按删除</string>
+    <string name="account_book_default_income">收入</string>
+    <string name="account_book_default_expense">支出</string>
+</resources>

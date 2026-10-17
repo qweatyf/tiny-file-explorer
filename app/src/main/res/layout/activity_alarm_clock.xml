@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="@string/title_alarm_clock"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_ac_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg"
+            android:padding="30dp"
+            android:text="07:00"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_ac_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:textColor="@color/main_pink"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_ac_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp">
+
+            <CheckBox android:id="@+id/cb_w1" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_mon_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w2" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_tue_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w3" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_wed_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w4" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_thu_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w5" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_fri_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w6" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_sat_short" android:textColor="@color/text"/>
+
+            <CheckBox android:id="@+id/cb_w7" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:text="@string/week_sun_short" android:textColor="@color/text"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_ac_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/alarm_label_hint"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_ac_ring_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/text"
+            android:textSize="13sp"
+            android:background="@color/white"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button android:id="@+id/btn_ac_pick_ring" android:text="@string/alarm_pick_music"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+
+            <Button android:id="@+id/btn_ac_reset_ring" android:text="@string/alarm_default_ring"
+                style="@style/WhiteBtn"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:layout_marginStart="4dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ac_set"
+            android:text="@string/alarm_set"
+            style="@style/WhiteBtn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="@string/alarm_list_title"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/main_pink"/>
+
+        <ListView
+            android:id="@+id/lv_ac_alarms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/alarm_tip"
+            android:textSize="12sp"
+            android:textColor="#888"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

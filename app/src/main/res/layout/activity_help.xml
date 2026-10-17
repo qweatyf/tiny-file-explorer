@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="@string/help_title"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="30dp"/>
+
+    <Button android:id="@+id/btn_update" android:text="@string/help_update" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_about" android:text="@string/help_about" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_copyright" android:text="@string/help_copyright" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_promo" android:text="@string/help_promo" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_agreement" android:text="@string/help_agreement" style="@style/WhiteBtn"/>
+    <Button android:id="@+id/btn_language" android:text="@string/help_language" style="@style/WhiteBtn"/>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle"
+            android:text="@string/battery_health_title"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_health_design"
+            android:textColor="@color/text"
+            android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/et_health_design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/battery_health_design_hint"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_health_current"
+            android:textColor="@color/text"
+            android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/et_health_current"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/battery_health_current_hint"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_health_current_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_health_estimate"
+            android:textColor="@color/text"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_health_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:textColor="@color/main_pink"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_health_save"
+            android:text="@string/battery_health_save"
+            style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

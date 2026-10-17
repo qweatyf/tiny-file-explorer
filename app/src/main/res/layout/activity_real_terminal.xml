@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink">
+
+    <com.example.myempty.activity2.TerminalView
+        android:id="@+id/real_terminal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/rt_copy_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink_light"
+        android:visibility="gone">
+
+        <Button android:id="@+id/rt_btn_copy_sel" android:text="@string/file_menu_copy" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/rt_btn_cancel_sel" android:text="@string/file_rename_cancel" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink_light">
+
+        <Button android:id="@+id/btn_rt_ctrl" android:text="Ctrl" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_c" android:text="C" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_tab" android:text="Tab" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_esc" android:text="Esc" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_slash" android:text="/" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_up" android:text="↑" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_down" android:text="↓" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bg_pink">
+
+        <Button android:id="@+id/btn_rt_clear" android:text="@string/file_del_cancel" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_paste" android:text="@string/file_menu_copy" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_font" android:text="@string/lang_title" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_session" android:text="@string/lang_title" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/btn_rt_pick" android:text="@string/file_enc_pick" style="@style/WhiteBtn"
+            android:layout_width="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

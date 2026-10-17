@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_pink">#FFF0F5</color>
+    <color name="main_pink">#D87093</color>
+    <color name="pink_light">#F5C6D6</color>
+    <color name="pink_bg">#FFF5F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text">#333333</color>
+    <color name="text2">#888888</color>
+    <color name="red_warn">#E57373</color>
+    <color name="pink_card">#FFE0EB</color>
+</resources>
