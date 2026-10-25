@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/MyEmptyActivity/app/src/main/java/com/example/myempty/activity/HelpActivity.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/MyEmptyActivity/app/src/main/java/com/example/myempty/activity/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 4534,
+          "line": 134
+        },
+        "start": {
+          "column": 1,
+          "index": 4534,
+          "line": 134
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/MyEmptyActivity/app/src/main/java/com/example/myempty/activity/MainActivity.java"
+}

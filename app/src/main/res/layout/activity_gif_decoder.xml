@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_pink"
+    android:padding="20dp">
+
+    <TextView style="@style/PinkTitle" android:text="@string/title_gif_decoder"/>
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_line"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_gifd_pick" android:text="@string/file_enc_pick" style="@style/WhiteBtn"/>
+
+    <TextView
+        android:id="@+id/tv_gifd_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_enc_none"
+        android:textColor="@color/text"
+        android:padding="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_gifd_decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/img_tool_gif_decode"
+        style="@style/WhiteBtn"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

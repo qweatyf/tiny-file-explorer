@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Unavailable</title>
+<style>
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background: #000814;
+        color: #00ffcc;
+        font-family: "Courier New", monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box {
+        text-align: center;
+        padding: 30px;
+        border: 1px solid #00ffcc;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 255, 204, 0.4);
+        max-width: 80%;
+    }
+    .icon {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .msg {
+        font-size: 13px;
+        opacity: 0.8;
+        line-height: 1.6;
+    }
+</style>
+</head>
+<body>
+<div class="box">
+    <div class="icon">!</div>
+    <div class="title" id="fb-title"></div>
+    <div class="msg" id="fb-msg"></div>
+</div>
+<script>
+    if (window.AndroidBridge && window.AndroidBridge.getFallbackText) {
+        try {
+            var t = JSON.parse(window.AndroidBridge.getFallbackText());
+            document.getElementById('fb-title').textContent = t.title || '';
+            document.getElementById('fb-msg').innerHTML = t.msg || '';
+        } catch (e) {}
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>3D Monitor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="canvas-container"></div>
+<div id="info-panel">
+    <div class="row">
+        <span class="label" id="lbl-title"></span>
+        <span class="value" id="val-main"></span>
+    </div>
+    <div class="row small">
+        <span class="label" id="lbl-sub1"></span>
+        <span class="value" id="val-sub1"></span>
+    </div>
+    <div class="row small">
+        <span class="label" id="lbl-sub2"></span>
+        <span class="value" id="val-sub2"></span>
+    </div>
+    <div class="row small" id="legend-row">
+        <span class="legend-dot green"></span><span class="legend-text" id="leg-green"></span>
+        <span class="legend-dot red"></span><span class="legend-text" id="leg-red"></span>
+        <span class="legend-dot cyan"></span><span class="legend-text" id="leg-cyan"></span>
+    </div>
+</div>
+<div id="app-list"></div>
+<div id="toast"></div>
+<script src="three.min.js"></script>
+<script src="monitor.js"></script>
+</body>
+</html>

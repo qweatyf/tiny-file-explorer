@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="@string/bp_title"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_bp_pick"
+            android:text="@string/file_enc_pick"
+            style="@style/WhiteBtn"/>
+
+        <TextView
+            android:id="@+id/tv_bp_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bp_steps"
+            android:textColor="@color/main_pink"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <CheckBox android:id="@+id/cb_bp_rename" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/file_menu_rename" android:textColor="@color/text"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingBottom="8dp">
+            <EditText android:id="@+id/et_bp_rename_find" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="原文本" android:background="@color/white" android:padding="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="→" android:padding="8dp" android:textColor="@color/text"/>
+            <EditText android:id="@+id/et_bp_rename_replace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="新文本" android:background="@color/white" android:padding="8dp"/>
+        </LinearLayout>
+
+        <CheckBox android:id="@+id/cb_bp_compress" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/file_tool_compress" android:textColor="@color/text"/>
+        <CheckBox android:id="@+id/cb_bp_hash" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/file_tool_hash" android:textColor="@color/text"/>
+        <CheckBox android:id="@+id/cb_bp_encrypt" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/file_tool_encrypt" android:textColor="@color/text"/>
+
+        <EditText android:id="@+id/et_bp_password" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="@string/file_enc_pass_hint"
+            android:inputType="textPassword" android:background="@color/white" android:padding="10dp" android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_bp_start"
+            android:text="@string/bp_run"
+            style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

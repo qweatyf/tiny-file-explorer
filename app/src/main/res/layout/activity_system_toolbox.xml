@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView style="@style/PinkTitle" android:text="@string/title_system_toolbox"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_monitor"/>
+        <Button android:id="@+id/btn_sys_cpu" android:text="@string/title_cpu_monitor" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_mem" android:text="@string/title_mem_monitor" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_battery" android:text="@string/title_battery_monitor" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_net" android:text="@string/title_net_monitor" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_storage" android:text="@string/title_storage_analysis" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_app"/>
+        <Button android:id="@+id/btn_sys_appdetail" android:text="@string/title_app_detail" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_uninstall" android:text="@string/title_app_uninstall" style="@style/WhiteBtn"/>
+
+        <TextView style="@style/GroupTitle" android:text="@string/group_root"/>
+        <Button android:id="@+id/btn_sys_freeze" android:text="@string/title_app_freeze" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_clean" android:text="@string/title_app_clean" style="@style/WhiteBtn"/>
+        <Button android:id="@+id/btn_sys_autostart" android:text="@string/title_app_auto_start" style="@style/WhiteBtn"/>
+
+    </LinearLayout>
+</ScrollView>

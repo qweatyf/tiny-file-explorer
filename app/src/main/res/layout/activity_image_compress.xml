@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_pink"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView style="@style/PinkTitle" android:text="@string/title_image_compress"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/title_line"
+            android:layout_marginBottom="20dp"/>
+
+        <Button android:id="@+id/btn_comp_img_pick" android:text="@string/file_enc_pick" style="@style/WhiteBtn"/>
+
+        <TextView
+            android:id="@+id/tv_comp_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/text"
+            android:textSize="14sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/et_comp_max_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"/>
+
+        <SeekBar
+            android:id="@+id/sb_comp_quality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btn_comp_img_do"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/img_tool_compress"
+            style="@style/WhiteBtn"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

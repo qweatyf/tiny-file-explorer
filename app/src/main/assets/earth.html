@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>3D Earth</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="earth-body">
+<div id="earth-container"></div>
+<div id="earth-panel">
+    <div class="row">
+        <span class="label" id="earth-lat-label"></span>
+        <span class="value" id="earth-lat-val">--</span>
+    </div>
+    <div class="row">
+        <span class="label" id="earth-lon-label"></span>
+        <span class="value" id="earth-lon-val">--</span>
+    </div>
+    <div class="row">
+        <span class="label" id="earth-zoom-label"></span>
+        <span class="value" id="earth-zoom-val">--</span>
+    </div>
+</div>
+<div id="earth-labels"></div>
+<div id="earth-toolbar">
+    <button id="btn-lat" class="tool-btn"></button>
+    <button id="btn-lon" class="tool-btn"></button>
+    <button id="btn-mag" class="tool-btn"></button>
+</div>
+<div id="earth-hint"></div>
+<script src="three.min.js"></script>
+<script src="earth.js"></script>
+</body>
+</html>

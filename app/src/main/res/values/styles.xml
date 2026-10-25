@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WhiteBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">@color/main_pink</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="CardBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/card_bg</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="PinkTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_pink</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="GroupTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_pink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">4dp</item>
+    </style>
+
+    <style name="DangerBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">@color/red_warn</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="WhiteEdit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">top|start</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="WhiteBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+</resources>
